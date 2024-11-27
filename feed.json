@@ -7,13 +7,170 @@
 	"items": [
 		
 			{
+				"id": "http://tknblogs.micro.blog/2024/11/26/now-this-is.html",
+				
+				"content_html": "<p>Now, THIS is very cool! I&rsquo;ve been quite excited about the rise of so-called cyberdecks in the last few years, and this looks like one of the coolest ones I&rsquo;ve ever seen. Powered by the nicely capable Raspberry Pi 5, the Pilet 5 (5&quot; with integrated controls) and Pilet 7 (7&quot; with a unique modular design) are full-on #handheld computers with a lovely #retro esthetic. The #Kickstarter campaign starts soon, as well. #tech #raspberrypi #rpi5 #cyberdeck <a href=\"https://liliputing.com/raspberry-pi-powered-pilet-5-and-pilet-7-handheld-computers-coming-soon-to-kickstarter/\">liliputing.com/raspberry&hellip;</a></p>\n",
+				"content_text": "Now, THIS is very cool! I've been quite excited about the rise of so-called cyberdecks in the last few years, and this looks like one of the coolest ones I've ever seen. Powered by the nicely capable Raspberry Pi 5, the Pilet 5 (5\" with integrated controls) and Pilet 7 (7\" with a unique modular design) are full-on #handheld computers with a lovely #retro esthetic. The #Kickstarter campaign starts soon, as well. #tech #raspberrypi #rpi5 #cyberdeck [liliputing.com/raspberry...](https://liliputing.com/raspberry-pi-powered-pilet-5-and-pilet-7-handheld-computers-coming-soon-to-kickstarter/)\n",
+				"date_published": "2024-11-26T21:42:50-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/26/now-this-is.html",
+				"tags": ["linux","open source","technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/26/omg-is-there.html",
+				
+				"content_html": "<p>#OMG! Is there no low Elongated Muskrat won&rsquo;t stoop to? Well, that&rsquo;s a dumb question&hellip; I know. Maybe Lord #TFG will declare him Regent of the Sovereign Kingdom of teXas. See what I did there? Clever, no? #idiocracy #xitter #elonmusk <a href=\"https://gizmodo.com/elon-musk-says-he-owns-everyones-twitter-account-in-bizarre-alex-jones-court-filing-2000530503\">gizmodo.com/elon-musk&hellip;</a></p>\n",
+				"content_text": "#OMG! Is there no low Elongated Muskrat won't stoop to? Well, that's a dumb question... I know. Maybe Lord #TFG will declare him Regent of the Sovereign Kingdom of teXas. See what I did there? Clever, no? #idiocracy #xitter #elonmusk [gizmodo.com/elon-musk...](https://gizmodo.com/elon-musk-says-he-owns-everyones-twitter-account-in-bizarre-alex-jones-court-filing-2000530503)\n",
+				"date_published": "2024-11-26T14:17:14-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/26/omg-is-there.html",
+				"tags": ["capitalism"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/26/the-new-yorker.html",
+				
+				"content_html": "<p>The New Yorker has made a wonderful mini-doc about a 99 year-old criminal defense lawyer named Frank Lucianna preparing for his final case. It&rsquo;s gorgeously shot and a bittersweet snapshot of a single human life. Well worth a watch. #documentaries #minidoc #YouTube #law <a href=\"https://youtu.be/YvqqZ2vIXzU\">youtu.be/YvqqZ2vIX&hellip;</a></p>\n",
+				"content_text": "The New Yorker has made a wonderful mini-doc about a 99 year-old criminal defense lawyer named Frank Lucianna preparing for his final case. It's gorgeously shot and a bittersweet snapshot of a single human life. Well worth a watch. #documentaries #minidoc #YouTube #law [youtu.be/YvqqZ2vIX...](https://youtu.be/YvqqZ2vIXzU)\n",
+				"date_published": "2024-11-26T13:59:31-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/26/the-new-yorker.html",
+				"tags": ["rights"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/25/well-thats-not.html",
+				
+				"content_html": "<p>Well, that&rsquo;s not great. Another good reason to get a #MacMini, though I do understand the allure of the #iMac. When I got my M1 I considered getting the iMac, but I already had a dual-display setup and the M1 iMac can only handle one external display. #PROTIP: Always get AppleCare+. #Apple will make it difficult to get anything repaired unless they issue an official recall. #tech #hardware <a href=\"https://www.macworld.com/article/2532789/there-appears-to-be-a-hidden-flaw-in-the-imac-thats-basically-a-warranty-time-bomb.html\">www.macworld.com/article/2&hellip;</a></p>\n",
+				"content_text": "Well, that's not great. Another good reason to get a #MacMini, though I do understand the allure of the #iMac. When I got my M1 I considered getting the iMac, but I already had a dual-display setup and the M1 iMac can only handle one external display. #PROTIP: Always get AppleCare+. #Apple will make it difficult to get anything repaired unless they issue an official recall. #tech #hardware [www.macworld.com/article/2...](https://www.macworld.com/article/2532789/there-appears-to-be-a-hidden-flaw-in-the-imac-thats-basically-a-warranty-time-bomb.html)\n",
+				"date_published": "2024-11-25T14:24:46-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/25/well-thats-not.html",
+				"tags": ["apple"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/25/gpd-is-about.html",
+				
+				"content_html": "<p>#GPD is about to roll out their new Pocket 4 micro laptop and it&rsquo;s gotten a significant upgrade. It now features an #AMD #Ryzen AI 9 HX370 CPU with a #Radeon 890M iGPU and an 8.8&quot; 2560x1600 144Hz display. It has 40Gbps Thunderbolt 4 and a swappable port module on the back, as well. It&rsquo;s more for admins than for gaming but it&rsquo;s rather versatile and can even run #linux. Very slick little devices! #tech <a href=\"https://youtu.be/FWo4xElfKgE\">youtu.be/FWo4xElfK&hellip;</a></p>\n",
+				"content_text": "#GPD is about to roll out their new Pocket 4 micro laptop and it's gotten a significant upgrade. It now features an #AMD #Ryzen AI 9 HX370 CPU with a #Radeon 890M iGPU and an 8.8\" 2560x1600 144Hz display. It has 40Gbps Thunderbolt 4 and a swappable port module on the back, as well. It's more for admins than for gaming but it's rather versatile and can even run #linux. Very slick little devices! #tech [youtu.be/FWo4xElfK...](https://youtu.be/FWo4xElfKgE)\n",
+				"date_published": "2024-11-25T09:06:34-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/25/gpd-is-about.html",
+				"tags": ["technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/24/well-this-is.html",
+				
+				"content_html": "<p>Well, this is interesting. Does the name D.B. Cooper ring a bell? It should, as that&rsquo;s the nom de plume of the only air pirate case that has never been solved. 57 years ago today, he jumped out of a commercial jet with a parachute and $200,000 and has, so far, gotten away scot free. It&rsquo;s seems now, however, that they might have their first new evidence since they soft-closed the case in 2016. #crime #airpirates #airlines #robbery #dbcooper <a href=\"https://yro.slashdot.org/story/24/11/24/1815217/is-there-new-evidence-in-the-db-cooper-case\">yro.slashdot.org/story/24/&hellip;</a></p>\n",
+				"content_text": "Well, this is interesting. Does the name D.B. Cooper ring a bell? It should, as that's the nom de plume of the only air pirate case that has never been solved. 57 years ago today, he jumped out of a commercial jet with a parachute and $200,000 and has, so far, gotten away scot free. It's seems now, however, that they might have their first new evidence since they soft-closed the case in 2016. #crime #airpirates #airlines #robbery #dbcooper [yro.slashdot.org/story/24/...](https://yro.slashdot.org/story/24/11/24/1815217/is-there-new-evidence-in-the-db-cooper-case)\n",
+				"date_published": "2024-11-24T15:47:08-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/24/well-this-is.html"
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/23/well-i-kind.html",
+				
+				"content_html": "<p>Well, I kind of expect dumb from Redmond&rsquo;s very own Factory of Dull, #Microsoft, but this is on another level. I still have no idea why anyone tolerates #Windows11, what with all the shady crap being slotted into the successor to the &ldquo;Last Windows&rdquo;, #Windows10. They&rsquo;ve paused 24H2 because some of Ubisoft&rsquo;s #VideoGames crash after the update is applied. Wow. Just run Windows 10, peeps. #tech <a href=\"https://www.theverge.com/2024/11/23/24304313/microsoft-delays-windows-11-24h2-update-ubisoft-star-wars-outlaws-assassins-creed-valhalla-crashes\">www.theverge.com/2024/11/2&hellip;</a></p>\n",
+				"content_text": "Well, I kind of expect dumb from Redmond's very own Factory of Dull, #Microsoft, but this is on another level. I still have no idea why anyone tolerates #Windows11, what with all the shady crap being slotted into the successor to the \"Last Windows\", #Windows10. They've paused 24H2 because some of Ubisoft's #VideoGames crash after the update is applied. Wow. Just run Windows 10, peeps. #tech [www.theverge.com/2024/11/2...](https://www.theverge.com/2024/11/23/24304313/microsoft-delays-windows-11-24h2-update-ubisoft-star-wars-outlaws-assassins-creed-valhalla-crashes)\n",
+				"date_published": "2024-11-23T15:21:57-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/23/well-i-kind.html",
+				"tags": ["video games","technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/23/daves-garage-on.html",
+				
+				"content_html": "<p>Dave&rsquo;s Garage on #YouTube does a nice breakdown of performance benchmarks comparing the new M4 Pro Mini to the M2 Ultra Mac Pro and, for shits &amp; giggles, a Threadripper 7995WX. My takeaway: If you&rsquo;re an everyday, average user, get the M4 Mini base model and an external Samsung T7 2TB SSD. #tech #apple #M4MacMini #benchmarking <a href=\"https://www.youtube.com/watch?v=I2nZXNi_LxI\">www.youtube.com/watch</a></p>\n<p>CORRECTION: I originally stated the comparison included the M2 Ultra Mini, a system that does not exist, and have corrected it to M4 Ultra Mac Pro.</p>\n",
+				"content_text": "Dave's Garage on #YouTube does a nice breakdown of performance benchmarks comparing the new M4 Pro Mini to the M2 Ultra Mac Pro and, for shits & giggles, a Threadripper 7995WX. My takeaway: If you're an everyday, average user, get the M4 Mini base model and an external Samsung T7 2TB SSD. #tech #apple #M4MacMini #benchmarking [www.youtube.com/watch](https://www.youtube.com/watch?v=I2nZXNi_LxI)\n\nCORRECTION: I originally stated the comparison included the M2 Ultra Mini, a system that does not exist, and have corrected it to M4 Ultra Mac Pro. \n",
+				"date_published": "2024-11-23T11:42:32-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/23/daves-garage-on.html",
+				"tags": ["apple","technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/23/i-have-a.html",
+				
+				"content_html": "<p>I have a complex relationship with home #arcade cabinets. I want one, but I want specific ones like Arctic Thunder or San Francisco Rush 2049, which aren&rsquo;t stick cabs. If, however, you&rsquo;re into classic stick and button cabs, then #Evercade&rsquo;s new Alpha mini cabinets might tickle that spot for you. At $230 for the Mega Man or Street Fighter version, you get what looks like a nice unit, but with a few caveats. #videogames #retrogaming #tech <a href=\"https://www.wired.com/review/evercade-alpha/\">www.wired.com/review/ev&hellip;</a></p>\n",
+				"content_text": "I have a complex relationship with home #arcade cabinets. I want one, but I want specific ones like Arctic Thunder or San Francisco Rush 2049, which aren't stick cabs. If, however, you're into classic stick and button cabs, then #Evercade's new Alpha mini cabinets might tickle that spot for you. At $230 for the Mega Man or Street Fighter version, you get what looks like a nice unit, but with a few caveats. #videogames #retrogaming #tech [www.wired.com/review/ev...](https://www.wired.com/review/evercade-alpha/)\n",
+				"date_published": "2024-11-23T11:15:23-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/23/i-have-a.html",
+				"tags": ["video games"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/22/heres-a-rather.html",
+				
+				"content_html": "<p>Here&rsquo;s a rather fascinating (and detailed) breakdown of installing a 1TB mSATA SSD into a PowerBook G4 1.67GHz hi-res display model, the last of the mobile PowerPC PowerBooks. I put a similar rig in my G4 Mini 1.4GHz &ldquo;Silent Upgrade&rdquo;, though my SSD is a mere 120GBs. Then again, I run Mac OS 9.22 on it, with a 10.4 partition. #apple #Mac #retrocomputing #hardware <a href=\"https://lowendmac.com/2024/fanxiang-1-tb-msata-ssd-in-a-hi-res-15-powerbook-g4-so-far-so-good/\">lowendmac.com/2024/fanx&hellip;</a></p>\n",
+				"content_text": "Here's a rather fascinating (and detailed) breakdown of installing a 1TB mSATA SSD into a PowerBook G4 1.67GHz hi-res display model, the last of the mobile PowerPC PowerBooks. I put a similar rig in my G4 Mini 1.4GHz \"Silent Upgrade\", though my SSD is a mere 120GBs. Then again, I run Mac OS 9.22 on it, with a 10.4 partition. #apple #Mac #retrocomputing #hardware [lowendmac.com/2024/fanx...](https://lowendmac.com/2024/fanxiang-1-tb-msata-ssd-in-a-hi-res-15-powerbook-g4-so-far-so-good/)\n",
+				"date_published": "2024-11-22T15:48:11-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/22/heres-a-rather.html",
+				"tags": ["apple","retro technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/22/is-it-just.html",
+				
+				"content_html": "<p>Is it just me or is #Facebook a stupid name for anything? #stupid #tech #internet</p>\n",
+				"content_text": "Is it just me or is #Facebook a stupid name for anything? #stupid #tech #internet\n",
+				"date_published": "2024-11-22T14:51:23-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/22/is-it-just.html"
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/22/in-the-rarely.html",
+				
+				"content_html": "<p>In the rarely used #GoodNews category of #VideoGamePreservation, Epic Games has granted the Internet Archive permission to archive old versions of #UnrealEngine and #UnrealTournament and make them available to anyone who wants them&hellip; for #FREE! It may be a small step in the wide-ranging universe of outmoded #videogames, but it is a step! Take heed, publishers hoarding old games!! #RetroComputing #tech <a href=\"https://mjtsai.com/blog/2024/11/22/unreal-on-internet-archive/\">mjtsai.com/blog/2024&hellip;</a></p>\n",
+				"content_text": "In the rarely used #GoodNews category of #VideoGamePreservation, Epic Games has granted the Internet Archive permission to archive old versions of #UnrealEngine and #UnrealTournament and make them available to anyone who wants them... for #FREE! It may be a small step in the wide-ranging universe of outmoded #videogames, but it is a step! Take heed, publishers hoarding old games!! #RetroComputing #tech [mjtsai.com/blog/2024...](https://mjtsai.com/blog/2024/11/22/unreal-on-internet-archive/)\n",
+				"date_published": "2024-11-22T14:17:55-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/22/in-the-rarely.html",
+				"tags": ["video games","retro technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/22/tyler-fisher-no.html",
+				
+				"content_html": "<p>Tyler Fisher (no relation) has announced Sill, an open source web-based Nuzzle-like tool that aggregates popular links from your social media sources, currently Mastodon and Bluesky. I can&rsquo;t say I know anything about Nuzzle, though I recall hearing it was popular at some point :) It seems to have some neat features. #4nerds #socialmedia #internet #utilities <a href=\"https://sixcolors.com/link/2024/11/sill-gives-a-nuzzel-vibe-to-mastodon-and-bluesky-links/\">sixcolors.com/link/2024&hellip;</a></p>\n",
+				"content_text": "Tyler Fisher (no relation) has announced Sill, an open source web-based Nuzzle-like tool that aggregates popular links from your social media sources, currently Mastodon and Bluesky. I can't say I know anything about Nuzzle, though I recall hearing it was popular at some point :) It seems to have some neat features. #4nerds #socialmedia #internet #utilities [sixcolors.com/link/2024...](https://sixcolors.com/link/2024/11/sill-gives-a-nuzzel-vibe-to-mastodon-and-bluesky-links/)\n",
+				"date_published": "2024-11-22T11:48:10-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/22/tyler-fisher-no.html",
+				"tags": ["technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/21/satechi-dropped-some.html",
+				
+				"content_html": "<p>Satechi dropped some details on their upcoming new hub stand for the redesigned M4 Mac Mini, sans a price, though the model designed for the older models sold for $100. From what we can tell, it has three USB-A ports and an SD card slot on the front and it can take up to a 2280 4TB NVMe SSD drive, but is limited to 10Gb/s speeds, so it&rsquo;s probably best for wireless peripherals and TimeMachine backups. #tech #Apple #hardware <a href=\"https://satechi.net/landing/new-stand-and-hub-m4-mac-mini\">satechi.net/landing/n&hellip;</a></p>\n",
+				"content_text": "Satechi dropped some details on their upcoming new hub stand for the redesigned M4 Mac Mini, sans a price, though the model designed for the older models sold for $100. From what we can tell, it has three USB-A ports and an SD card slot on the front and it can take up to a 2280 4TB NVMe SSD drive, but is limited to 10Gb/s speeds, so it's probably best for wireless peripherals and TimeMachine backups. #tech #Apple #hardware [satechi.net/landing/n...](https://satechi.net/landing/new-stand-and-hub-m4-mac-mini)\n",
+				"date_published": "2024-11-21T18:25:07-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/21/satechi-dropped-some.html",
+				"tags": ["apple","technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/21/i-would-have.html",
+				
+				"content_html": "<p>I would have loved having one of these back in my D&amp;D, GURPS, Aftermath #TTRPG days, but it won&rsquo;t come cheap. Starting at $100 for the plastic model and going up from there, the Timestop D-20 will roll up to 12 D4 through D20 and has graphics for crits, and can even roll up to a D100. Oh yeah, it even tells time! #gaming #nerdculture #gadgets #tech #lofi #watches <a href=\"https://gizmodo.com/this-d-20-watch-will-celebrate-your-crits-in-dungeons-dragons-games-2000527803\">gizmodo.com/this-d-20&hellip;</a></p>\n",
+				"content_text": "I would have loved having one of these back in my D&D, GURPS, Aftermath #TTRPG days, but it won't come cheap. Starting at $100 for the plastic model and going up from there, the Timestop D-20 will roll up to 12 D4 through D20 and has graphics for crits, and can even roll up to a D100. Oh yeah, it even tells time! #gaming #nerdculture #gadgets #tech #lofi #watches [gizmodo.com/this-d-20...](https://gizmodo.com/this-d-20-watch-will-celebrate-your-crits-in-dungeons-dragons-games-2000527803)\n",
+				"date_published": "2024-11-21T17:48:05-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/21/i-would-have.html",
+				"tags": ["technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/21/i-guess-its.html",
+				
+				"content_html": "<p>I guess it&rsquo;s fair that #Macworld&rsquo;s David Price put &lsquo;confirmed&rsquo; in quotes, but it is potentially misleading. Sure, a Barclays analyst has seen clear evidence that the #iPhone #SE4 is likely shipping early next year, but nothing is for sure with the #Apple of today. Mid-range phones are hot these days, however, so I think this #rumor has merit. As always, we must wait and see. #tech <a href=\"https://www.macworld.com/article/2528294/new-iphone-se-confirmed-to-launch-in-march-2025.html\">www.macworld.com/article/2&hellip;</a></p>\n",
+				"content_text": "I guess it's fair that #Macworld's David Price put 'confirmed' in quotes, but it is potentially misleading. Sure, a Barclays analyst has seen clear evidence that the #iPhone #SE4 is likely shipping early next year, but nothing is for sure with the #Apple of today. Mid-range phones are hot these days, however, so I think this #rumor has merit. As always, we must wait and see. #tech [www.macworld.com/article/2...](https://www.macworld.com/article/2528294/new-iphone-se-confirmed-to-launch-in-march-2025.html)\n",
+				"date_published": "2024-11-21T17:36:49-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/21/i-guess-its.html"
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/21/if-you-want.html",
+				
+				"content_html": "<p>If you want to buy a new TV but would prefer that it were stupid, as I have for years now, then get one from Sceptre, an American electronics firm that makes Dumb TVs. We got our 55&quot; 4K TV for $330 and, while it&rsquo;s not amazing, it works great with our Apple TV box. Then you can avoid the coming madness illustrated below. #tech #advertising #television <a href=\"https://arstechnica.com/gadgets/2024/11/an-ad-giant-wants-to-control-your-next-tvs-operating-system/\">arstechnica.com/gadgets/2&hellip;</a></p>\n",
+				"content_text": "If you want to buy a new TV but would prefer that it were stupid, as I have for years now, then get one from Sceptre, an American electronics firm that makes Dumb TVs. We got our 55\" 4K TV for $330 and, while it's not amazing, it works great with our Apple TV box. Then you can avoid the coming madness illustrated below. #tech #advertising #television [arstechnica.com/gadgets/2...](https://arstechnica.com/gadgets/2024/11/an-ad-giant-wants-to-control-your-next-tvs-operating-system/)\n",
+				"date_published": "2024-11-21T16:36:07-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/21/if-you-want.html"
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/11/21/if-you-need.html",
+				
+				"content_html": "<p>If you need any more evidence that granting an opaque black box of magical faux brains domain over data to remake at will, give this lede a quick read. AI is artificial. It is NOT intelligent, but it&rsquo;s clearly dangerous. #tech #ai #law #copyright #robotapocalypse <a href=\"https://www.wired.com/story/new-york-times-openai-erased-potential-lawsuit-evidence/\">www.wired.com/story/new&hellip;</a></p>\n",
+				"content_text": "If you need any more evidence that granting an opaque black box of magical faux brains domain over data to remake at will, give this lede a quick read. AI is artificial. It is NOT intelligent, but it's clearly dangerous. #tech #ai #law #copyright #robotapocalypse [www.wired.com/story/new...](https://www.wired.com/story/new-york-times-openai-erased-potential-lawsuit-evidence/)\n",
+				"date_published": "2024-11-21T16:19:41-08:00",
+				"url": "https://tylerknowsnothing.com/2024/11/21/if-you-need.html"
+			},
+			{
 				"id": "http://tknblogs.micro.blog/2024/11/21/um-wow-okay.html",
 				
 				"content_html": "<p>Um. Wow. Okay&hellip; So, it&rsquo;s a banana&hellip; and it&rsquo;s taped to a wall&hellip; with a strip of standard silver duct tape. And it just sold at auction for $6.24 MILLION DOLLARS. Aside from being the easiest art to forge, I applaud artist Maurizio Cattelan for creating &ldquo;Comedian&rdquo; since it pokes the art industrial complex in the eye and the winning bid makes fools of every last art &ldquo;speculator&rdquo; out there. It also peeks under the veneer of stupid we&rsquo;re running on these days. #art #banana #stupid <a href=\"https://www.nbcnews.com/news/us-news/viral-duct-taped-banana-sells-6-million-auction-rcna180564\">www.nbcnews.com/news/us-n&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Um. Wow. Okay... So, it's a banana... and it's taped to a wall... with a strip of standard silver duct tape. And it just sold at auction for $6.24 MILLION DOLLARS. Aside from being the easiest art to forge, I applaud artist Maurizio Cattelan for creating \"Comedian\" since it pokes the art industrial complex in the eye and the winning bid makes fools of every last art \"speculator\" out there. It also peeks under the veneer of stupid we're running on these days. #art #banana #stupid [www.nbcnews.com/news/us-n...](https://www.nbcnews.com/news/us-news/viral-duct-taped-banana-sells-6-million-auction-rcna180564)\n\n<img src=\"uploads/2024/banana-76.jpg\" width=\"600\" height=\"399\" alt=\"\">\n",
+				"content_text": "Um. Wow. Okay... So, it's a banana... and it's taped to a wall... with a strip of standard silver duct tape. And it just sold at auction for $6.24 MILLION DOLLARS. Aside from being the easiest art to forge, I applaud artist Maurizio Cattelan for creating \"Comedian\" since it pokes the art industrial complex in the eye and the winning bid makes fools of every last art \"speculator\" out there. It also peeks under the veneer of stupid we're running on these days. #art #banana #stupid [www.nbcnews.com/news/us-n...](https://www.nbcnews.com/news/us-news/viral-duct-taped-banana-sells-6-million-auction-rcna180564)\n\n<img src=\"https://cdn.uploads.micro.blog/151098/2024/banana-76.jpg\" width=\"600\" height=\"399\" alt=\"\">\n",
 				"date_published": "2024-11-21T16:11:15-08:00",
 				"url": "https://tylerknowsnothing.com/2024/11/21/um-wow-okay.html",
-				"tags": ["capitalism","Photo","editorial"]
+				"tags": ["capitalism","editorial"]
 			},
 			{
 				"id": "http://tknblogs.micro.blog/2024/11/21/good-news-everyone.html",
@@ -109,19 +266,19 @@
 				"id": "http://tknblogs.micro.blog/2024/11/16/despite-being-cancelled.html",
 				
 				"content_html": "<p>Despite being cancelled after the second season (apparently the bill for production has been upwards of $250 million and it shows) #Arcane on #Netflix is an absolute, unquestionable masterpiece of #storytelling, #animation, #television, and just plain ol' #artistic excellence, and all from a little know French animation studio called #Fortiche. Even if they got to finish it, you&rsquo;d never want it to end, but I understand it wraps up rather well anyway.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Despite being cancelled after the second season (apparently the bill for production has been upwards of $250 million and it shows) #Arcane on #Netflix is an absolute, unquestionable masterpiece of #storytelling, #animation, #television, and just plain ol' #artistic excellence, and all from a little know French animation studio called #Fortiche. Even if they got to finish it, you'd never want it to end, but I understand it wraps up rather well anyway. \n\n\n<img src=\"uploads/2024/a9b5c86f90.jpg\" width=\"600\" height=\"255\" alt=\"A screenshot from Netflix's Arcane animated series showing Jinx standing sadly in front of a boxing training machine. \">\n",
+				"content_text": "Despite being cancelled after the second season (apparently the bill for production has been upwards of $250 million and it shows) #Arcane on #Netflix is an absolute, unquestionable masterpiece of #storytelling, #animation, #television, and just plain ol' #artistic excellence, and all from a little know French animation studio called #Fortiche. Even if they got to finish it, you'd never want it to end, but I understand it wraps up rather well anyway. \n\n\n<img src=\"https://cdn.uploads.micro.blog/151098/2024/a9b5c86f90.jpg\" width=\"600\" height=\"255\" alt=\"A screenshot from Netflix's Arcane animated series showing Jinx standing sadly in front of a boxing training machine. \">\n",
 				"date_published": "2024-11-16T15:54:03-08:00",
 				"url": "https://tylerknowsnothing.com/2024/11/16/despite-being-cancelled.html",
-				"tags": ["television","animation","Photo"]
+				"tags": ["television","animation"]
 			},
 			{
 				"id": "http://tknblogs.micro.blog/2024/11/16/now-playing-at.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n<p>Now playing at Nothing Manor, The Police&rsquo;s final album remastered and re-released in 2003, Synchronicity. #music #albums #thepolice</p>\n<p><em>PROTIP</em>: Albums are snapshots in musical time. Listen to the entire album and feel the groove, read the lyrics at the same time, and experience a little time travel 😁</p>\n",
-				"content_text": "<img src=\"uploads/2024/7a18375af7.png\" alt=\"Album cover for The Police's Synchronicity from 2003\">\n\nNow playing at Nothing Manor, The Police's final album remastered and re-released in 2003, Synchronicity. #music #albums #thepolice\n\n*PROTIP*: Albums are snapshots in musical time. Listen to the entire album and feel the groove, read the lyrics at the same time, and experience a little time travel 😁\n",
+				"content_text": "<img src=\"https://cdn.uploads.micro.blog/151098/2024/7a18375af7.png\" alt=\"Album cover for The Police's Synchronicity from 2003\">\n\nNow playing at Nothing Manor, The Police's final album remastered and re-released in 2003, Synchronicity. #music #albums #thepolice\n\n*PROTIP*: Albums are snapshots in musical time. Listen to the entire album and feel the groove, read the lyrics at the same time, and experience a little time travel 😁\n",
 				"date_published": "2024-11-16T13:10:41-08:00",
 				"url": "https://tylerknowsnothing.com/2024/11/16/now-playing-at.html",
-				"tags": ["music","Photo"]
+				"tags": ["music"]
 			},
 			{
 				"id": "http://tknblogs.micro.blog/2024/11/15/if-youre-old.html",
@@ -309,8 +466,7 @@
 				"content_html": "<!-- raw HTML omitted -->\n<p>Apparently it&rsquo;s illegal to own historical artifacts in Bulgaria. Not a bad idea, to be honest. Such artifacts are snapshots of the rich history of humanity on our lone planet thriving with life in the solar system. It sucks that certain peeps are allowed to develop their own private collections. While I believe that in this case it was likely inadvertent, there are many more who selfishly or for investment purposes collect these items. Additionally, there is now more talk about presevation of cultural heritage going on now in Bulgaria. #history [<a href=\"https://www.euronews.com/my-europe/2024/08/12/beach-bar-sarcophagus-turns-out-to-be-genuine-roman-artefact\">SOURCE</a>]</p>\n",
 				"content_text": "<img src=\"https://cdn.uploads.micro.blog/151098/2024/image.png\" width=\"600\" height=\"337\" alt=\"\">\r\n\r\nApparently it's illegal to own historical artifacts in Bulgaria. Not a bad idea, to be honest. Such artifacts are snapshots of the rich history of humanity on our lone planet thriving with life in the solar system. It sucks that certain peeps are allowed to develop their own private collections. While I believe that in this case it was likely inadvertent, there are many more who selfishly or for investment purposes collect these items. Additionally, there is now more talk about presevation of cultural heritage going on now in Bulgaria. #history [[SOURCE](https://www.euronews.com/my-europe/2024/08/12/beach-bar-sarcophagus-turns-out-to-be-genuine-roman-artefact)]\n",
 				"date_published": "2024-08-21T14:15:21-08:00",
-				"url": "https://tylerknowsnothing.com/2024/08/21/ancient-roman-sarcophagus.html",
-				"tags": ["Photo"]
+				"url": "https://tylerknowsnothing.com/2024/08/21/ancient-roman-sarcophagus.html"
 			},
 			{
 				"id": "http://tknblogs.micro.blog/2024/08/20/americas-legal-system.html",
