@@ -7,6 +7,131 @@
 	"items": [
 		
 			{
+				"id": "http://tknblogs.micro.blog/2025/01/02/wow-this-looks-both-fun.html",
+				
+				"content_html": "<p>Wow! This looks both fun and hilarious! #videogames #nintendo #switch #steamdeck (don&rsquo;t care about the other platforms, but those too) <a href=\"https://www.youtube.com/watch?v=nOcz48bQlzg\">www.youtube.com/watch</a></p>\n",
+				"content_text": "Wow! This looks both fun and hilarious! #videogames #nintendo #switch #steamdeck (don't care about the other platforms, but those too) [www.youtube.com/watch](https://www.youtube.com/watch?v=nOcz48bQlzg)\n",
+				"date_published": "2025-01-02T16:30:26-08:00",
+				"url": "https://tylerknowsnothing.com/2025/01/02/wow-this-looks-both-fun.html",
+				"tags": ["video games"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2025/01/02/while-i-remain-unsurprised-i.html",
+				
+				"content_html": "<p>While I remain unsurprised I am still mortified, more at the unapologetic, emotionless callousness of #Texas' than of the disturbing number of babies left to die in ditches and dumpsters. Government prescribed subjugation of women will, after all, result in ugliness. Period. #humanrights #womensrights #abortion #health <a href=\"https://www.salon.com/2025/01/02/newborns-are-being-left-in-dumpsters-in-texas-but-dont-seem-to-care/\">www.salon.com/2025/01/0&hellip;</a></p>\n",
+				"content_text": "While I remain unsurprised I am still mortified, more at the unapologetic, emotionless callousness of #Texas' than of the disturbing number of babies left to die in ditches and dumpsters. Government prescribed subjugation of women will, after all, result in ugliness. Period. #humanrights #womensrights #abortion #health [www.salon.com/2025/01/0...](https://www.salon.com/2025/01/02/newborns-are-being-left-in-dumpsters-in-texas-but-dont-seem-to-care/)\n",
+				"date_published": "2025-01-02T08:20:20-08:00",
+				"url": "https://tylerknowsnothing.com/2025/01/02/while-i-remain-unsurprised-i.html",
+				"tags": ["politics","rights"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2025/01/01/ever-wonder-which-is-stronger.html",
+				
+				"content_html": "<p>Ever wonder which is stronger when it comes to #Canada&rsquo;s #Adamantium versus #Wakanda&rsquo;s #Vibranium? Well, it&rsquo;s Adamantium, while Vibranium remains easier to work with. But there is another #Marvel #Comics metal that is stronger, but if you want to know more read this interesting /Film article. <a href=\"https://www.slashfilm.com/1747074/adamantium-vs-vibranium-marvel-metal-stronger/\">www.slashfilm.com/1747074/a&hellip;</a></p>\n",
+				"content_text": "Ever wonder which is stronger when it comes to #Canada's #Adamantium versus #Wakanda's #Vibranium? Well, it's Adamantium, while Vibranium remains easier to work with. But there is another #Marvel #Comics metal that is stronger, but if you want to know more read this interesting /Film article. [www.slashfilm.com/1747074/a...](https://www.slashfilm.com/1747074/adamantium-vs-vibranium-marvel-metal-stronger/)\n",
+				"date_published": "2025-01-01T18:37:58-08:00",
+				"url": "https://tylerknowsnothing.com/2025/01/01/ever-wonder-which-is-stronger.html",
+				"tags": ["comics \u0026 manga"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2025/01/01/substack-charging-for-setting-up.html",
+				"title": "Substack charging for \"setting up\" custom domain names you own is extortion",
+				"content_html": "<!-- raw HTML omitted -->\n<p>That sour, disappointed look flooded onto my wife&rsquo;s face. She was upset. I asked her what was wrong, and she explained to me that her Wordpress stats weren&rsquo;t working like they used to. I poked around and couldn&rsquo;t find anything obviously amiss in the Jetpack plugin settings, so I told her it was likely a glitch and would clear up. About a week later I got the email.</p>\n<p>Wordpress had determined that my wife&rsquo;s social justice and political analysis blog (<a href=\"https://rimaregas.com\">https://rimaregas.com</a>) was now deemed a commercial website and that she&rsquo;d need to pay up in order to continue getting the vital stats she needs to run her site. It is important to note here that we don&rsquo;t use Wordpress hosting, but Name.com website hosting, so her Wordpress installation is effectively self-hosted, and self-hosted sites have, for many years, been free of the capitalism of the official Wordpress hosting platform run by Automattic.</p>\n<p>And how, you might ask, did they determine that the blog was now considered &ldquo;commercial&rdquo;? By asking for donations&hellip;</p>\n<!-- raw HTML omitted -->\n<p>Automattic has been shifting the goal posts and clearly want to start milking the self-hosting crowd after spending more than a decade making Jetpack a vital component in almost any Wordpress installation, especially for small bloggers. We didn&rsquo;t need any of the paid upgrades and the free services offered were more than sufficient. Rima preferred to remain on the blogging platform she&rsquo;d become accustomed to, but this thing with the stats was the final straw. So, she decided to migrate away from Wordpress and selected Substack, the popular newsletter self-publishing tool that has grown into a blogging platform of its own, as her new platform.</p>\n<p>I looked over everything. I combed through the settings and documentation to understand how everything worked and to verify a wide range of items like compatibility with Wordpress post imports and migrating her list of subscribers. One feature I even checked was if Substack had the ability to assign her domain name to her blog, and I was pleased to discover that indeed it did. I worked through the various tasks of getting everything configured for her and to essentially become a mirror of her Wordpress website which, after setting up the aforementioned custom domain with our DNS registrar, would be shut down.</p>\n<p>In retrospect I&rsquo;d made one critical mistake, however&hellip; I&rsquo;d never clicked the link to setup the custom domain.</p>\n<p>In all the years I&rsquo;ve been blogging and working with Wordpress and setting up websites and whatnot I have never once come across what I saw in the image at the top of this post. I&rsquo;ve seen far lower prices (around $5-10) and even annual fees, but these have always been for commercial systems designed for corporations, and you always expect that kind of chicanery in the enterprise realm, but not on the consumer internet. I&rsquo;m not a networking guru or anything like that, but I do know that setting DNS (Domain Name Services) to point one address at another address is, in short, a zero cost proposition.</p>\n<p>The anger that welled up in me at the thought of having to pay $50 for an automated process that requires no technician involvement and what amounts to a tiny change in a text file on my registrars DNS server which is then propagated to other DNS servers (99.9% of which are not run by Substack) across the entire internet was profound. In fact, I am the one who does all the work, so I&rsquo;m paying Substack $50 and then doing the work myself? The concept is literally insane. There is no reality in which Substack&rsquo;s DNS servers are overburdened by custom domain name configurations. Period.</p>\n<p>But Rima had already committed and we weren&rsquo;t going to turn back, so we haven&rsquo;t, but we also haven&rsquo;t dropped half a C-note for the privilege of getting to use the domain name we own on her blog. $50 is precious to us, but we will find a time at which we can do it. It just rankles that Substack has chosen to make free revenue from a service that isn&rsquo;t even their own and costs them nothing to implement.</p>\n<p>Caveat emptor, I guess.</p>\n<p>PS: Go check out <a href=\"https://rimaregasblog42.substack.com\">rimaregasblog42.substack.com</a> for some quality writing and to see what Rima&rsquo;s tracking.</p>\n<p>#capitalism #technology #editorial #substack #dns #enshittification</p>",
+				"content_text": "<img src=\"uploads/2025/fb3af4c5d8.png\" alt=\"A webpage form prompts users to add a custom domain to their Substack account by entering credit card information and paying a $50 fee.\">\n\nThat sour, disappointed look flooded onto my wife's face. She was upset. I asked her what was wrong, and she explained to me that her Wordpress stats weren't working like they used to. I poked around and couldn't find anything obviously amiss in the Jetpack plugin settings, so I told her it was likely a glitch and would clear up. About a week later I got the email.\n\n<!--more-->\n\nWordpress had determined that my wife's social justice and political analysis blog (https://rimaregas.com) was now deemed a commercial website and that she'd need to pay up in order to continue getting the vital stats she needs to run her site. It is important to note here that we don't use Wordpress hosting, but Name.com website hosting, so her Wordpress installation is effectively self-hosted, and self-hosted sites have, for many years, been free of the capitalism of the official Wordpress hosting platform run by Automattic. \n\nAnd how, you might ask, did they determine that the blog was now considered \"commercial\"? By asking for donations...\n\n<img src=\"uploads/2025/scr-20250101-m89-2.png\" width=\"600\" height=\"117\" alt=\"A highlighted section in a web article states that soliciting donations can make a site commercial.\">\n\nAutomattic has been shifting the goal posts and clearly want to start milking the self-hosting crowd after spending more than a decade making Jetpack a vital component in almost any Wordpress installation, especially for small bloggers. We didn't need any of the paid upgrades and the free services offered were more than sufficient. Rima preferred to remain on the blogging platform she'd become accustomed to, but this thing with the stats was the final straw. So, she decided to migrate away from Wordpress and selected Substack, the popular newsletter self-publishing tool that has grown into a blogging platform of its own, as her new platform. \n\nI looked over everything. I combed through the settings and documentation to understand how everything worked and to verify a wide range of items like compatibility with Wordpress post imports and migrating her list of subscribers. One feature I even checked was if Substack had the ability to assign her domain name to her blog, and I was pleased to discover that indeed it did. I worked through the various tasks of getting everything configured for her and to essentially become a mirror of her Wordpress website which, after setting up the aforementioned custom domain with our DNS registrar, would be shut down. \n\nIn retrospect I'd made one critical mistake, however... I'd never clicked the link to setup the custom domain. \n\nIn all the years I've been blogging and working with Wordpress and setting up websites and whatnot I have never once come across what I saw in the image at the top of this post. I've seen far lower prices (around $5-10) and even annual fees, but these have always been for commercial systems designed for corporations, and you always expect that kind of chicanery in the enterprise realm, but not on the consumer internet. I'm not a networking guru or anything like that, but I do know that setting DNS (Domain Name Services) to point one address at another address is, in short, a zero cost proposition. \n\nThe anger that welled up in me at the thought of having to pay $50 for an automated process that requires no technician involvement and what amounts to a tiny change in a text file on my registrars DNS server which is then propagated to other DNS servers (99.9% of which are not run by Substack) across the entire internet was profound. In fact, I am the one who does all the work, so I'm paying Substack $50 and then doing the work myself? The concept is literally insane. There is no reality in which Substack's DNS servers are overburdened by custom domain name configurations. Period. \n\nBut Rima had already committed and we weren't going to turn back, so we haven't, but we also haven't dropped half a C-note for the privilege of getting to use the domain name we own on her blog. $50 is precious to us, but we will find a time at which we can do it. It just rankles that Substack has chosen to make free revenue from a service that isn't even their own and costs them nothing to implement.\n\nCaveat emptor, I guess. \n\nPS: Go check out [rimaregasblog42.substack.com](https://rimaregasblog42.substack.com) for some quality writing and to see what Rima's tracking. \n\n#capitalism #technology #editorial #substack #dns #enshittification\n",
+				"date_published": "2025-01-01T16:19:38-08:00",
+				"url": "https://tylerknowsnothing.com/2025/01/01/substack-charging-for-setting-up.html",
+				"tags": ["capitalism","editorial","technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2025/01/01/my-daughter-and-i-have.html",
+				
+				"content_html": "<p>My daughter and I have been watching #Defunctland on #Youtube for years now. Kevin Perjurer is a wonderfully thoughtful, detail oriented, and quietly snarky filmmaker that you can&rsquo;t help but enjoy watching tales of dead amusement parks. Petrana <a href=\"http://polygon.com\">@polygon.com</a> found that out, too! #TV #disney <a href=\"https://www.polygon.com/yuletide-youtube/485365/yuletide-youtube-defunctland-american-idol\">www.polygon.com/yuletide-&hellip;</a></p>\n",
+				"content_text": "My daughter and I have been watching #Defunctland on #Youtube for years now. Kevin Perjurer is a wonderfully thoughtful, detail oriented, and quietly snarky filmmaker that you can't help but enjoy watching tales of dead amusement parks. Petrana [@polygon.com](http://polygon.com) found that out, too! #TV #disney [www.polygon.com/yuletide-...](https://www.polygon.com/yuletide-youtube/485365/yuletide-youtube-defunctland-american-idol)\n",
+				"date_published": "2025-01-01T14:24:04-08:00",
+				"url": "https://tylerknowsnothing.com/2025/01/01/my-daughter-and-i-have.html",
+				"tags": ["television"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2025/01/01/now-playing-nothing-manor-michael.html",
+				
+				"content_html": "<p>Now Playing @ Nothing Manor: Michael Penn - Mr. Hollywood Jr. (Double Disc Version)(2005). Featuring Penn&rsquo;s unique spin on Americana rock and interspersed with fascinating short snippets of musical texture, this is a more introspective album than most of his releases. #music #nowplaying</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Now Playing @ Nothing Manor: Michael Penn - Mr. Hollywood Jr. (Double Disc Version)(2005). Featuring Penn's unique spin on Americana rock and interspersed with fascinating short snippets of musical texture, this is a more introspective album than most of his releases. #music #nowplaying\n\n<img src=\"https://cdn.uploads.micro.blog/151098/2025/b9e0e2c26b.png\" width=\"474\" height=\"565\" alt=\"\">\n",
+				"date_published": "2025-01-01T09:46:45-08:00",
+				"url": "https://tylerknowsnothing.com/2025/01/01/now-playing-nothing-manor-michael.html",
+				"tags": ["music"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/12/31/i-cannot-believe-that-substack.html",
+				
+				"content_html": "<p>I cannot BELIEVE that #Substack has the gall to charge $50 to use a custom domain!! Hey #networking #nerds, how much does it cost Substack to &ldquo;host&rdquo; a domain name #tech #internet #capitalism</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "I cannot BELIEVE that #Substack has the gall to charge $50 to use a custom domain!! Hey #networking #nerds, how much does it cost Substack to \"host\" a domain name #tech #internet #capitalism\n\n<img src=\"https://cdn.uploads.micro.blog/151098/2025/fb3af4c5d8.png\" width=\"600\" height=\"345\" alt=\"\">\n",
+				"date_published": "2024-12-31T19:11:05-08:00",
+				"url": "https://tylerknowsnothing.com/2024/12/31/i-cannot-believe-that-substack.html",
+				"tags": ["capitalism","technology"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/12/31/now-playing-nothing-manor-colin.html",
+				
+				"content_html": "<p>Now Playing @ Nothing Manor: Colin Hay - Transcendental Highway (1998). Saw Colin this morning talking to CNN whilst celebrating New Years in Tasmania (I think. Maybe NZ) and playing music for the crowds with his old band, Men at Work. Threw this on. Great album. #music #nowplaying</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Now Playing @ Nothing Manor: Colin Hay - Transcendental Highway (1998). Saw Colin this morning talking to CNN whilst celebrating New Years in Tasmania (I think. Maybe NZ) and playing music for the crowds with his old band, Men at Work. Threw this on. Great album. #music #nowplaying\n\n<img src=\"https://cdn.uploads.micro.blog/151098/2024/cf2f14cd83.png\" width=\"474\" height=\"565\" alt=\"\">\n",
+				"date_published": "2024-12-31T13:24:42-08:00",
+				"url": "https://tylerknowsnothing.com/2024/12/31/now-playing-nothing-manor-colin.html",
+				"tags": ["music"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/12/30/now-playing-nothing-manor-oingo.html",
+				
+				"content_html": "<p>Now Playing @ Nothing Manor: Oingo Boingo - Alive (1988). While this is a live album, the band didn&rsquo;t play in front of an audience. Nothing is mixed. It sounds like a studio recording it&rsquo;s so tight. #music #nowplaying</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Now Playing @ Nothing Manor: Oingo Boingo - Alive (1988). While this is a live album, the band didn't play in front of an audience. Nothing is mixed. It sounds like a studio recording it's so tight. #music #nowplaying\n\n<img src=\"https://cdn.uploads.micro.blog/151098/2024/c809aeedb4.png\" width=\"474\" height=\"565\" alt=\"\">\n",
+				"date_published": "2024-12-30T12:16:25-08:00",
+				"url": "https://tylerknowsnothing.com/2024/12/30/now-playing-nothing-manor-oingo.html",
+				"tags": ["music"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/12/30/well-this-is-fascinating-the.html",
+				
+				"content_html": "<p>Well, this is fascinating! The city of Poznan, Poland uses eight clams to control their water supply. When the water is clean, they remain open, but close when contaminated, closing a sensor harmlessly glued to their shell. Computers do the rest. After three months, the clams are returned to their original home and replaced with new clams. #science #health #clever <a href=\"https://kottke.org/24/12/eight-clams-control-this-polish-citys-water-supply\">kottke.org/24/12/eig&hellip;</a></p>\n",
+				"content_text": "Well, this is fascinating! The city of Poznan, Poland uses eight clams to control their water supply. When the water is clean, they remain open, but close when contaminated, closing a sensor harmlessly glued to their shell. Computers do the rest. After three months, the clams are returned to their original home and replaced with new clams. #science #health #clever [kottke.org/24/12/eig...](https://kottke.org/24/12/eight-clams-control-this-polish-citys-water-supply)\n",
+				"date_published": "2024-12-30T12:11:02-08:00",
+				"url": "https://tylerknowsnothing.com/2024/12/30/well-this-is-fascinating-the.html",
+				"tags": ["science"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/12/30/now-playing-nothing-manor-robbie.html",
+				
+				"content_html": "<p>Now Playing @ Nothing Manor: Robbie Robertson - How To Become Clairvoyant (Deluxe)(2011). Eric Clapton. Steve Winwood. Tom Morello. Trent Reznor. Nothing short of an amazing album. Why are you still reading this? Go listen! #music #nowplaying</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Now Playing @ Nothing Manor: Robbie Robertson - How To Become Clairvoyant (Deluxe)(2011). Eric Clapton. Steve Winwood. Tom Morello. Trent Reznor. Nothing short of an amazing album. Why are you still reading this? Go listen! #music #nowplaying\n\n<img src=\"https://cdn.uploads.micro.blog/151098/2024/daecdc33e0.png\" width=\"474\" height=\"565\" alt=\"\">\n",
+				"date_published": "2024-12-30T09:21:55-08:00",
+				"url": "https://tylerknowsnothing.com/2024/12/30/now-playing-nothing-manor-robbie.html",
+				"tags": ["music"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/12/30/its-cnn-listicle-season-and.html",
+				
+				"content_html": "<p>It&rsquo;s #CNN listicle season, and I hate it. I can&rsquo;t walk around my house now without wading through hip-deep listicle muck. It&rsquo;s sooooo gross. Normally this would signal the oncoming new year and a refreshed sense of hope, but that&rsquo;s not in the cards for #2025. Ugh. #news #enshittification</p>\n",
+				"content_text": "It's #CNN listicle season, and I hate it. I can't walk around my house now without wading through hip-deep listicle muck. It's sooooo gross. Normally this would signal the oncoming new year and a refreshed sense of hope, but that's not in the cards for #2025. Ugh. #news #enshittification\n",
+				"date_published": "2024-12-30T08:00:20-08:00",
+				"url": "https://tylerknowsnothing.com/2024/12/30/its-cnn-listicle-season-and.html"
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/12/29/i-dont-think-i-mention.html",
+				
+				"content_html": "<p>I don&rsquo;t think I mention how much I hate private medical insurance (even more than I hate paid parking at medical facilities). So, I&rsquo;m going to mention that the people at Select Health are terrible for denying a 9 year old girl born with one arm a $24K robotic arm because it was &ldquo;cosmetic&rdquo;. Despite their callousness, she got her arm. Read her story. #healthcare #humanrights <a href=\"https://science.slashdot.org/story/24/12/29/0213248/anger-at-health-insurance-prompts-the-public-to-fund-a-9-year-olds-bionic-arm\">science.slashdot.org/story/24/&hellip;</a></p>\n",
+				"content_text": "I don't think I mention how much I hate private medical insurance (even more than I hate paid parking at medical facilities). So, I'm going to mention that the people at Select Health are terrible for denying a 9 year old girl born with one arm a $24K robotic arm because it was \"cosmetic\". Despite their callousness, she got her arm. Read her story. #healthcare #humanrights [science.slashdot.org/story/24/...](https://science.slashdot.org/story/24/12/29/0213248/anger-at-health-insurance-prompts-the-public-to-fund-a-9-year-olds-bionic-arm)\n",
+				"date_published": "2024-12-29T12:23:39-08:00",
+				"url": "https://tylerknowsnothing.com/2024/12/29/i-dont-think-i-mention.html",
+				"tags": ["rights"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2024/12/28/im-not-sure-this-is.html",
+				
+				"content_html": "<p>I&rsquo;m not sure this is the most complementary of headlines for the #Flexbar. #Apple&rsquo;s Touch Bar was almost as unloved as the disastrous Butterfly keyboard, and now both have long been excised from the MacBook lineup. #tech <a href=\"https://appleinsider.com/articles/24/12/28/flexbar-review-could-be-the-heir-apparent-to-the-touch-bar-someday\">appleinsider.com/articles/&hellip;</a></p>\n",
+				"content_text": "I'm not sure this is the most complementary of headlines for the #Flexbar. #Apple's Touch Bar was almost as unloved as the disastrous Butterfly keyboard, and now both have long been excised from the MacBook lineup. #tech [appleinsider.com/articles/...](https://appleinsider.com/articles/24/12/28/flexbar-review-could-be-the-heir-apparent-to-the-touch-bar-someday)\n",
+				"date_published": "2024-12-28T17:55:56-08:00",
+				"url": "https://tylerknowsnothing.com/2024/12/28/im-not-sure-this-is.html",
+				"tags": ["apple","technology"]
+			},
+			{
 				"id": "http://tknblogs.micro.blog/2024/12/28/this-is-heartbreaking-i-was.html",
 				
 				"content_html": "<p>This is heartbreaking. I was very lucky to be among those whose loans were mostly wiped clean by the Biden administration and I&rsquo;m &ldquo;only&rdquo; 56. And my outstanding loans were a pittance compared to Valerie&rsquo;s. I thought my 16k was stressful&hellip; #studentloans #debt <a href=\"https://yro.slashdot.org/story/24/12/28/0423232/millions-of-us-seniors-still-owe-student-loan-debt\">yro.slashdot.org/story/24/&hellip;</a></p>\n",
