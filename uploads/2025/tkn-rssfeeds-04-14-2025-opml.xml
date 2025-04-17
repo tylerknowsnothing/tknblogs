@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>RSS subscriptions for tcregas@icloud.com</title>
+    <dateCreated>Tue, 15 Apr 2025 04:47:27 +0000</dateCreated>
+    <ownerEmail>tcregas@icloud.com</ownerEmail>
+  </head>
+  <body>
+<outline text="kottke.org" title="kottke.org" type="rss" xmlUrl="http://feeds.kottke.org/main" htmlUrl="https://kottke.org/"/>
+<outline text="Slashdot" title="Slashdot" type="rss" xmlUrl="http://rss.slashdot.org/Slashdot/slashdot" htmlUrl="https://slashdot.org/"/>
+<outline text="DistroWatch" title="DistroWatch" type="rss" xmlUrl="http://distrowatch.com/news/dw.xml" htmlUrl="https://distrowatch.com/"/>
+<outline text="Rock, Paper, Shotgun" title="Rock, Paper, Shotgun" type="rss" xmlUrl="http://feeds.feedburner.com/RockPaperShotgun" htmlUrl="https://www.rockpapershotgun.com/feed"/>
+<outline text="Ars Technica" title="Ars Technica" type="rss" xmlUrl="http://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com"/>
+<outline text="/Film" title="/Film" type="rss" xmlUrl="http://feeds.feedburner.com/slashfilm" htmlUrl="https://www.slashfilm.com/"/>
+<outline text="Liliputing" title="Liliputing" type="rss" xmlUrl="http://feeds.feedburner.com/Liliputing" htmlUrl="https://liliputing.com/"/>
+<outline text="Writer Unboxed" title="Writer Unboxed" type="rss" xmlUrl="http://feeds.feedburner.com/WriterUnboxed" htmlUrl="https://writerunboxed.com"/>
+<outline text="Polygon" title="Polygon" type="rss" xmlUrl="https://www.polygon.com/rss/index.xml" htmlUrl="https://www.polygon.com"/>
+<outline text="Salon.com" title="Salon.com" type="rss" xmlUrl="https://www.salon.com/feed/" htmlUrl="https://www.salon.com"/>
+<outline text="Michael Tsai" title="Michael Tsai" type="rss" xmlUrl="https://mjtsai.com/blog/feed/" htmlUrl="https://mjtsai.com/blog"/>
+<outline text="Daring Fireball" title="Daring Fireball" type="rss" xmlUrl="https://daringfireball.net/feeds/json" htmlUrl="https://daringfireball.net/"/>
+<outline text="Kotaku" title="Kotaku" type="rss" xmlUrl="https://kotaku.com/rss" htmlUrl="https://kotaku.com"/>
+<outline text="One Foot Tsunami" title="One Foot Tsunami" type="rss" xmlUrl="https://onefoottsunami.com/feed/json/" htmlUrl="https://onefoottsunami.com/"/>
+<outline text="The Root" title="The Root" type="rss" xmlUrl="https://www.theroot.com/rss" htmlUrl="https://www.theroot.com"/>
+<outline text="AppleInsider News" title="AppleInsider News" type="rss" xmlUrl="https://appleinsider.com/rss/news" htmlUrl="https://appleinsider.com/rss/news"/>
+<outline text="Manton Reece" title="Manton Reece" type="rss" xmlUrl="https://www.manton.org/feed.json" htmlUrl="https://www.manton.org/"/>
+<outline text="Anime News Network" title="Anime News Network" type="rss" xmlUrl="https://www.animenewsnetwork.com/all/rss.xml?ann-edition=us" htmlUrl="https://www.animenewsnetwork.com/"/>
+<outline text="Cartoon Brew" title="Cartoon Brew" type="rss" xmlUrl="https://www.cartoonbrew.com/feed" htmlUrl="https://www.cartoonbrew.com/"/>
+<outline text="Animation World Network" title="Animation World Network" type="rss" xmlUrl="https://www.awn.com/rss.xml" htmlUrl="https://www.awn.com/"/>
+<outline text="Low End Mac" title="Low End Mac" type="rss" xmlUrl="https://lowendmac.com/feed/" htmlUrl="https://lowendmac.com"/>
+<outline text="Animation Magazine" title="Animation Magazine" type="rss" xmlUrl="https://www.animationmagazine.net/feed/" htmlUrl="https://www.animationmagazine.net"/>
+<outline text="Byline Times" title="Byline Times" type="rss" xmlUrl="https://bylinetimes.com/feed/" htmlUrl="https://bylinetimes.com/"/>
+<outline text="Big Think" title="Big Think" type="rss" xmlUrl="https://bigthink.com/feed/all" htmlUrl="https://bigthink.com//feed/all"/>
+<outline text="HeyDingus" title="HeyDingus" type="rss" xmlUrl="https://heydingus.net/feed.rss" htmlUrl="https://heydingus.net"/>
+<outline text="Jalopnik" title="Jalopnik" type="rss" xmlUrl="https://ftr.fivefilters.net/makefulltextfeed.php?url=jalopnik.com/rss&amp;max=3&amp;links=preserve" htmlUrl="https://www.jalopnik.com/"/>
+    <outline text="Animation" title="Animation">
+<outline text="Anime News Network" title="Anime News Network" type="rss" xmlUrl="https://www.animenewsnetwork.com/all/rss.xml?ann-edition=us" htmlUrl="https://www.animenewsnetwork.com/"/>
+<outline text="Cartoon Brew" title="Cartoon Brew" type="rss" xmlUrl="https://www.cartoonbrew.com/feed" htmlUrl="https://www.cartoonbrew.com/"/>
+<outline text="Animation World Network" title="Animation World Network" type="rss" xmlUrl="https://www.awn.com/rss.xml" htmlUrl="https://www.awn.com/"/>
+<outline text="Animation Magazine" title="Animation Magazine" type="rss" xmlUrl="https://www.animationmagazine.net/feed/" htmlUrl="https://www.animationmagazine.net"/>
+    </outline>
+    <outline text="Apple" title="Apple">
+<outline text="AppleInsider News" title="AppleInsider News" type="rss" xmlUrl="https://appleinsider.com/rss/news" htmlUrl="https://appleinsider.com/rss/news"/>
+    </outline>
+    <outline text="Automotive" title="Automotive">
+<outline text="Jalopnik" title="Jalopnik" type="rss" xmlUrl="https://ftr.fivefilters.net/makefulltextfeed.php?url=jalopnik.com/rss&amp;max=3&amp;links=preserve" htmlUrl="https://www.jalopnik.com/"/>
+    </outline>
+    <outline text="Bloggers" title="Bloggers">
+<outline text="kottke.org" title="kottke.org" type="rss" xmlUrl="http://feeds.kottke.org/main" htmlUrl="https://kottke.org/"/>
+<outline text="Michael Tsai" title="Michael Tsai" type="rss" xmlUrl="https://mjtsai.com/blog/feed/" htmlUrl="https://mjtsai.com/blog"/>
+<outline text="Daring Fireball" title="Daring Fireball" type="rss" xmlUrl="https://daringfireball.net/feeds/json" htmlUrl="https://daringfireball.net/"/>
+<outline text="One Foot Tsunami" title="One Foot Tsunami" type="rss" xmlUrl="https://onefoottsunami.com/feed/json/" htmlUrl="https://onefoottsunami.com/"/>
+<outline text="Manton Reece" title="Manton Reece" type="rss" xmlUrl="https://www.manton.org/feed.json" htmlUrl="https://www.manton.org/"/>
+<outline text="HeyDingus" title="HeyDingus" type="rss" xmlUrl="https://heydingus.net/feed.rss" htmlUrl="https://heydingus.net"/>
+    </outline>
+    <outline text="Film &amp; TV" title="Film &amp; TV">
+<outline text="/Film" title="/Film" type="rss" xmlUrl="http://feeds.feedburner.com/slashfilm" htmlUrl="https://www.slashfilm.com/"/>
+    </outline>
+    <outline text="Linux" title="Linux">
+<outline text="DistroWatch" title="DistroWatch" type="rss" xmlUrl="http://distrowatch.com/news/dw.xml" htmlUrl="https://distrowatch.com/"/>
+    </outline>
+    <outline text="News &amp; Politics" title="News &amp; Politics">
+<outline text="Salon.com" title="Salon.com" type="rss" xmlUrl="https://www.salon.com/feed/" htmlUrl="https://www.salon.com"/>
+<outline text="The Root" title="The Root" type="rss" xmlUrl="https://www.theroot.com/rss" htmlUrl="https://www.theroot.com"/>
+<outline text="Byline Times" title="Byline Times" type="rss" xmlUrl="https://bylinetimes.com/feed/" htmlUrl="https://bylinetimes.com/"/>
+<outline text="Big Think" title="Big Think" type="rss" xmlUrl="https://bigthink.com/feed/all" htmlUrl="https://bigthink.com//feed/all"/>
+    </outline>
+    <outline text="Technology" title="Technology">
+<outline text="Slashdot" title="Slashdot" type="rss" xmlUrl="http://rss.slashdot.org/Slashdot/slashdot" htmlUrl="https://slashdot.org/"/>
+<outline text="Ars Technica" title="Ars Technica" type="rss" xmlUrl="http://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com"/>
+<outline text="Liliputing" title="Liliputing" type="rss" xmlUrl="http://feeds.feedburner.com/Liliputing" htmlUrl="https://liliputing.com/"/>
+    </outline>
+    <outline text="Video Games" title="Video Games">
+<outline text="Rock, Paper, Shotgun" title="Rock, Paper, Shotgun" type="rss" xmlUrl="http://feeds.feedburner.com/RockPaperShotgun" htmlUrl="https://www.rockpapershotgun.com/feed"/>
+<outline text="Polygon" title="Polygon" type="rss" xmlUrl="https://www.polygon.com/rss/index.xml" htmlUrl="https://www.polygon.com"/>
+<outline text="Kotaku" title="Kotaku" type="rss" xmlUrl="https://kotaku.com/rss" htmlUrl="https://kotaku.com"/>
+    </outline>
+    <outline text="Vintage Computing" title="Vintage Computing">
+<outline text="Low End Mac" title="Low End Mac" type="rss" xmlUrl="https://lowendmac.com/feed/" htmlUrl="https://lowendmac.com"/>
+    </outline>
+    <outline text="Writing" title="Writing">
+<outline text="Writer Unboxed" title="Writer Unboxed" type="rss" xmlUrl="http://feeds.feedburner.com/WriterUnboxed" htmlUrl="https://writerunboxed.com"/>
+    </outline>
+  </body>
+</opml>
