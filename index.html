@@ -2,7 +2,7 @@
 <html>
 
   <head>
-	<meta name="generator" content="Hugo 0.117.0">
+	<meta name="generator" content="Hugo 0.91.2" />
 
   <title>
       
@@ -21,6 +21,38 @@
 <div class="h-feed">
 
 	
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://tylerknowsnothing.com/2026/03/05/macbook-neo-yeah-go-ahead.html">MacBook Neo? Yeah, go ahead and buy it!</a></h1>
+		
+
+		<a href="https://tylerknowsnothing.com/2026/03/05/macbook-neo-yeah-go-ahead.html" class="u-url"><time class="dt-published" datetime="2026-03-05 13:18:14 -0800">Mar 5, 2026</time></a>
+
+		<div class="e-content">
+			 <!-- raw HTML omitted -->
+<p>&ldquo;MacBook Neo Hands-On&hellip; Watch BEFORE You Buy!&rdquo;</p>
+<p>&ldquo;New $599 MacBook Neo! What Apple Didn&rsquo;t Tell You&rdquo;</p>
+<p>&ldquo;BEFORE you buy the MacBook Neo…&rdquo;</p>
+<p>&ldquo;Apple&rsquo;s $599 MacBook Neo is GREAT (..or is it?)&rdquo;</p>
+<p>The headlines on countless YouTube videos say it all&hellip; right? It&rsquo;s compromised! Apple didn&rsquo;t tell you everything! Don&rsquo;t make the wrong choice! It&rsquo;s madness, per usual, as influencers scramble to carve out a potentially contentious position on Apple&rsquo;s new affordable laptop, the MacBook Neo.</p>
+<p>It&rsquo;s all bunkum, if you ask me.<!-- raw HTML omitted --></p>
+<p>These influencers are the same people who complain when their $1200 Pro phones aren&rsquo;t also the best cameras ever and shocked when a base M4 Mini can edit their 4K ProRaw videos as well as the $15,000 Mac Pro they bought a few years ago. They will tell you that the MacBook Neo will be good enough for email, messaging, simple spreadsheets, and &ldquo;casual&rdquo; browsing, whatever that is (is there extreme browsing?).</p>
+<p>Again&hellip; bunkum.</p>
+<p>Then one individual on social media said this, &ldquo;That MacBook Neo is going to crash and burn the first time someone tries to open passwords.app&rdquo;.</p>
+<p>I responded, &ldquo;What an odd take. The A18 Pro is from the iPhone 16 Pro. I imagine Passwords opens just fine on that since my 14 Plus (A15 Bionic) and 12 Mini (A14 Bionic) also have no issues opening Passwords. It’s a $600 laptop, from Apple, for average users, of which most humans are. And you’re not going to get a workstation that can edit feature films for $600. From any vendor using any chip technology. Just saying.&rdquo;</p>
+<p>To which they rejoined with, &ldquo;this is tongue in cheek because it opens terribly on many existing M chip laptops without 16 or more ram. Why did you feel the need to defend Apple, especially along arguments I had not raised?&rdquo;</p>
+<p>This is just nonsense. The wife has an 8GB M1 Mini, which is a little less performant that the MacBook Neo&rsquo;s A18 Pro, and we haven&rsquo;t seen it chug or catch fire, and she has more than 100 tabs open in Chrome. Not kidding. It runs for weeks between reboots and runs just fine. Of course, she only runs a few apps. I run twelve or more on my 16GB M1 Mini and no, Passwords does not cause any lag at any time.</p>
+<p>What I&rsquo;d like you to take away from this is that you decide what you need, and if it&rsquo;s an every day laptop that isn&rsquo;t being used to edit major motion pictures or render complex 3D scenes, you&rsquo;ll likely be just fine. You&rsquo;ll be able to watch videos, run all the apps that come with the system, and a lot more. If I were to ask you about Thunderbolt and your answer is &ldquo;What&rsquo;s that&rdquo; or &ldquo;I&rsquo;ve heard of it, I think&rdquo;, then I would be shocked if the MacBook Neo wasn&rsquo;t capable enough for your needs.</p>
+<p>$600 for an Apple laptop is a fantastic deal, and if the success of the M4 Mini (also $600) is any indication, the Neo will also sell well. Before the Rampocalypse (thanks, AI TechChads) you could regularly pick up an M4 Mini for under $500, and I don&rsquo;t see a reason why the Neo won&rsquo;t go on sale frequently as vendors vie for your dollars.</p>
+<blockquote>
+<p>PROTIP: Amazon historically loves to sell these at less than other sale prices, so keep an eye open. Just keep in mind that prices on everything are up, so keep an eye out for Apple sales that bundle three years of AppleCare+ with the system for less than $640, which is an excellent deal.</p>
+</blockquote>
+<p>So, for the price of a cheap, plastic-clad PC laptop bundled with Windows 11 and all that includes (ads and Copilot AI and more nonsense), you get a milled aluminum 13&quot; laptop with Apple&rsquo;s legendary build quality and up to sixteen hours on a charge because it runs with the efficiency of an iPhone 16 Pro. Instead of being primed for disappointment from influencers who would never, ever consider spending as little as $600 (in today&rsquo;s money) to buy one for themselves, just get what you want.</p>
+<p>That&rsquo;s what I&rsquo;ll be doing. In Indigo, of course.</p>
+
+		</div>
+	  </div>
 	
 	  <div class="h-entry">
 		
@@ -425,31 +457,38 @@
     return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
   }
 
-  
-
+  /**
+   * Sets up thumbnail for video wrapper
+   * @param {HTMLImageElement} thumbnail - Thumbnail element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} customThumb - Custom thumbnail URL
+   */
   function setupThumbnail(thumbnail, kind, customThumb) {
     if (!thumbnail) return;
 
     if (customThumb) {
-      
+      // Use custom thumbnail
       thumbnail.onerror = null;
       thumbnail.src = customThumb;
     } else if (kind.type === 'playlist') {
-      
+      // Use playlist placeholder
       thumbnail.src = getPlaylistPlaceholder();
     } else if (kind.type === 'video' && kind.id) {
-      
+      // Use YouTube thumbnail with fallback
       thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/maxresdefault.jpg`;
       thumbnail.onerror = () => {
         thumbnail.onerror = null;
         thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/0.jpg`;
       };
     }
-    
+    // For unknown type, keep the default placeholder
   }
 
-  
-
+  /**
+   * Creates embed URL for video or playlist
+   * @param {Object} kind - Parsed video/playlist info
+   * @returns {string} Embed URL or empty string if invalid
+   */
   function createEmbedUrl(kind) {
     if (kind.type === 'playlist' && kind.id) {
       return `${CONSTANTS.YOUTUBE_NOCOOKIE_DOMAIN}/embed/videoseries?list=${encodeURIComponent(kind.id)}&${CONSTANTS.EMBED_PARAMS}`;
@@ -463,20 +502,24 @@
     return '';
   }
 
-  
-
+  /**
+   * Creates and loads iframe embed
+   * @param {HTMLElement} wrapper - Video wrapper element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} title - Video title
+   */
   function loadEmbed(wrapper, kind, title) {
     if (wrapper.dataset.isLoaded === 'true') return;
 
     const embedUrl = createEmbedUrl(kind);
     if (!embedUrl) {
       console.error('Unable to create embed URL - invalid video/playlist ID');
-      
+      // Show error message to user
       wrapper.innerHTML = '<div style="padding: 2em; text-align: center; color: #fff;">Unable to load video. Please check the video ID.</div>';
       return;
     }
 
-    
+    // Create iframe
     const iframe = document.createElement('iframe');
     iframe.setAttribute('allowfullscreen', '');
     iframe.setAttribute('loading', 'lazy');
@@ -986,31 +1029,38 @@
     return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
   }
 
-  
-
+  /**
+   * Sets up thumbnail for video wrapper
+   * @param {HTMLImageElement} thumbnail - Thumbnail element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} customThumb - Custom thumbnail URL
+   */
   function setupThumbnail(thumbnail, kind, customThumb) {
     if (!thumbnail) return;
 
     if (customThumb) {
-      
+      // Use custom thumbnail
       thumbnail.onerror = null;
       thumbnail.src = customThumb;
     } else if (kind.type === 'playlist') {
-      
+      // Use playlist placeholder
       thumbnail.src = getPlaylistPlaceholder();
     } else if (kind.type === 'video' && kind.id) {
-      
+      // Use YouTube thumbnail with fallback
       thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/maxresdefault.jpg`;
       thumbnail.onerror = () => {
         thumbnail.onerror = null;
         thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/0.jpg`;
       };
     }
-    
+    // For unknown type, keep the default placeholder
   }
 
-  
-
+  /**
+   * Creates embed URL for video or playlist
+   * @param {Object} kind - Parsed video/playlist info
+   * @returns {string} Embed URL or empty string if invalid
+   */
   function createEmbedUrl(kind) {
     if (kind.type === 'playlist' && kind.id) {
       return `${CONSTANTS.YOUTUBE_NOCOOKIE_DOMAIN}/embed/videoseries?list=${encodeURIComponent(kind.id)}&${CONSTANTS.EMBED_PARAMS}`;
@@ -1024,20 +1074,24 @@
     return '';
   }
 
-  
-
+  /**
+   * Creates and loads iframe embed
+   * @param {HTMLElement} wrapper - Video wrapper element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} title - Video title
+   */
   function loadEmbed(wrapper, kind, title) {
     if (wrapper.dataset.isLoaded === 'true') return;
 
     const embedUrl = createEmbedUrl(kind);
     if (!embedUrl) {
       console.error('Unable to create embed URL - invalid video/playlist ID');
-      
+      // Show error message to user
       wrapper.innerHTML = '<div style="padding: 2em; text-align: center; color: #fff;">Unable to load video. Please check the video ID.</div>';
       return;
     }
 
-    
+    // Create iframe
     const iframe = document.createElement('iframe');
     iframe.setAttribute('allowfullscreen', '');
     iframe.setAttribute('loading', 'lazy');
@@ -1484,31 +1538,38 @@
     return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
   }
 
-  
-
+  /**
+   * Sets up thumbnail for video wrapper
+   * @param {HTMLImageElement} thumbnail - Thumbnail element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} customThumb - Custom thumbnail URL
+   */
   function setupThumbnail(thumbnail, kind, customThumb) {
     if (!thumbnail) return;
 
     if (customThumb) {
-      
+      // Use custom thumbnail
       thumbnail.onerror = null;
       thumbnail.src = customThumb;
     } else if (kind.type === 'playlist') {
-      
+      // Use playlist placeholder
       thumbnail.src = getPlaylistPlaceholder();
     } else if (kind.type === 'video' && kind.id) {
-      
+      // Use YouTube thumbnail with fallback
       thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/maxresdefault.jpg`;
       thumbnail.onerror = () => {
         thumbnail.onerror = null;
         thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/0.jpg`;
       };
     }
-    
+    // For unknown type, keep the default placeholder
   }
 
-  
-
+  /**
+   * Creates embed URL for video or playlist
+   * @param {Object} kind - Parsed video/playlist info
+   * @returns {string} Embed URL or empty string if invalid
+   */
   function createEmbedUrl(kind) {
     if (kind.type === 'playlist' && kind.id) {
       return `${CONSTANTS.YOUTUBE_NOCOOKIE_DOMAIN}/embed/videoseries?list=${encodeURIComponent(kind.id)}&${CONSTANTS.EMBED_PARAMS}`;
@@ -1522,20 +1583,24 @@
     return '';
   }
 
-  
-
+  /**
+   * Creates and loads iframe embed
+   * @param {HTMLElement} wrapper - Video wrapper element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} title - Video title
+   */
   function loadEmbed(wrapper, kind, title) {
     if (wrapper.dataset.isLoaded === 'true') return;
 
     const embedUrl = createEmbedUrl(kind);
     if (!embedUrl) {
       console.error('Unable to create embed URL - invalid video/playlist ID');
-      
+      // Show error message to user
       wrapper.innerHTML = '<div style="padding: 2em; text-align: center; color: #fff;">Unable to load video. Please check the video ID.</div>';
       return;
     }
 
-    
+    // Create iframe
     const iframe = document.createElement('iframe');
     iframe.setAttribute('allowfullscreen', '');
     iframe.setAttribute('loading', 'lazy');
@@ -2016,31 +2081,38 @@
     return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
   }
 
-  
-
+  /**
+   * Sets up thumbnail for video wrapper
+   * @param {HTMLImageElement} thumbnail - Thumbnail element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} customThumb - Custom thumbnail URL
+   */
   function setupThumbnail(thumbnail, kind, customThumb) {
     if (!thumbnail) return;
 
     if (customThumb) {
-      
+      // Use custom thumbnail
       thumbnail.onerror = null;
       thumbnail.src = customThumb;
     } else if (kind.type === 'playlist') {
-      
+      // Use playlist placeholder
       thumbnail.src = getPlaylistPlaceholder();
     } else if (kind.type === 'video' && kind.id) {
-      
+      // Use YouTube thumbnail with fallback
       thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/maxresdefault.jpg`;
       thumbnail.onerror = () => {
         thumbnail.onerror = null;
         thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/0.jpg`;
       };
     }
-    
+    // For unknown type, keep the default placeholder
   }
 
-  
-
+  /**
+   * Creates embed URL for video or playlist
+   * @param {Object} kind - Parsed video/playlist info
+   * @returns {string} Embed URL or empty string if invalid
+   */
   function createEmbedUrl(kind) {
     if (kind.type === 'playlist' && kind.id) {
       return `${CONSTANTS.YOUTUBE_NOCOOKIE_DOMAIN}/embed/videoseries?list=${encodeURIComponent(kind.id)}&${CONSTANTS.EMBED_PARAMS}`;
@@ -2054,20 +2126,24 @@
     return '';
   }
 
-  
-
+  /**
+   * Creates and loads iframe embed
+   * @param {HTMLElement} wrapper - Video wrapper element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} title - Video title
+   */
   function loadEmbed(wrapper, kind, title) {
     if (wrapper.dataset.isLoaded === 'true') return;
 
     const embedUrl = createEmbedUrl(kind);
     if (!embedUrl) {
       console.error('Unable to create embed URL - invalid video/playlist ID');
-      
+      // Show error message to user
       wrapper.innerHTML = '<div style="padding: 2em; text-align: center; color: #fff;">Unable to load video. Please check the video ID.</div>';
       return;
     }
 
-    
+    // Create iframe
     const iframe = document.createElement('iframe');
     iframe.setAttribute('allowfullscreen', '');
     iframe.setAttribute('loading', 'lazy');
@@ -2534,31 +2610,38 @@
     return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
   }
 
-  
-
+  /**
+   * Sets up thumbnail for video wrapper
+   * @param {HTMLImageElement} thumbnail - Thumbnail element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} customThumb - Custom thumbnail URL
+   */
   function setupThumbnail(thumbnail, kind, customThumb) {
     if (!thumbnail) return;
 
     if (customThumb) {
-      
+      // Use custom thumbnail
       thumbnail.onerror = null;
       thumbnail.src = customThumb;
     } else if (kind.type === 'playlist') {
-      
+      // Use playlist placeholder
       thumbnail.src = getPlaylistPlaceholder();
     } else if (kind.type === 'video' && kind.id) {
-      
+      // Use YouTube thumbnail with fallback
       thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/maxresdefault.jpg`;
       thumbnail.onerror = () => {
         thumbnail.onerror = null;
         thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/0.jpg`;
       };
     }
-    
+    // For unknown type, keep the default placeholder
   }
 
-  
-
+  /**
+   * Creates embed URL for video or playlist
+   * @param {Object} kind - Parsed video/playlist info
+   * @returns {string} Embed URL or empty string if invalid
+   */
   function createEmbedUrl(kind) {
     if (kind.type === 'playlist' && kind.id) {
       return `${CONSTANTS.YOUTUBE_NOCOOKIE_DOMAIN}/embed/videoseries?list=${encodeURIComponent(kind.id)}&${CONSTANTS.EMBED_PARAMS}`;
@@ -2572,20 +2655,24 @@
     return '';
   }
 
-  
-
+  /**
+   * Creates and loads iframe embed
+   * @param {HTMLElement} wrapper - Video wrapper element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} title - Video title
+   */
   function loadEmbed(wrapper, kind, title) {
     if (wrapper.dataset.isLoaded === 'true') return;
 
     const embedUrl = createEmbedUrl(kind);
     if (!embedUrl) {
       console.error('Unable to create embed URL - invalid video/playlist ID');
-      
+      // Show error message to user
       wrapper.innerHTML = '<div style="padding: 2em; text-align: center; color: #fff;">Unable to load video. Please check the video ID.</div>';
       return;
     }
 
-    
+    // Create iframe
     const iframe = document.createElement('iframe');
     iframe.setAttribute('allowfullscreen', '');
     iframe.setAttribute('loading', 'lazy');
@@ -3030,31 +3117,38 @@
     return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
   }
 
-  
-
+  /**
+   * Sets up thumbnail for video wrapper
+   * @param {HTMLImageElement} thumbnail - Thumbnail element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} customThumb - Custom thumbnail URL
+   */
   function setupThumbnail(thumbnail, kind, customThumb) {
     if (!thumbnail) return;
 
     if (customThumb) {
-      
+      // Use custom thumbnail
       thumbnail.onerror = null;
       thumbnail.src = customThumb;
     } else if (kind.type === 'playlist') {
-      
+      // Use playlist placeholder
       thumbnail.src = getPlaylistPlaceholder();
     } else if (kind.type === 'video' && kind.id) {
-      
+      // Use YouTube thumbnail with fallback
       thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/maxresdefault.jpg`;
       thumbnail.onerror = () => {
         thumbnail.onerror = null;
         thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/0.jpg`;
       };
     }
-    
+    // For unknown type, keep the default placeholder
   }
 
-  
-
+  /**
+   * Creates embed URL for video or playlist
+   * @param {Object} kind - Parsed video/playlist info
+   * @returns {string} Embed URL or empty string if invalid
+   */
   function createEmbedUrl(kind) {
     if (kind.type === 'playlist' && kind.id) {
       return `${CONSTANTS.YOUTUBE_NOCOOKIE_DOMAIN}/embed/videoseries?list=${encodeURIComponent(kind.id)}&${CONSTANTS.EMBED_PARAMS}`;
@@ -3068,20 +3162,24 @@
     return '';
   }
 
-  
-
+  /**
+   * Creates and loads iframe embed
+   * @param {HTMLElement} wrapper - Video wrapper element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} title - Video title
+   */
   function loadEmbed(wrapper, kind, title) {
     if (wrapper.dataset.isLoaded === 'true') return;
 
     const embedUrl = createEmbedUrl(kind);
     if (!embedUrl) {
       console.error('Unable to create embed URL - invalid video/playlist ID');
-      
+      // Show error message to user
       wrapper.innerHTML = '<div style="padding: 2em; text-align: center; color: #fff;">Unable to load video. Please check the video ID.</div>';
       return;
     }
 
-    
+    // Create iframe
     const iframe = document.createElement('iframe');
     iframe.setAttribute('allowfullscreen', '');
     iframe.setAttribute('loading', 'lazy');
@@ -3526,31 +3624,38 @@
     return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
   }
 
-  
-
+  /**
+   * Sets up thumbnail for video wrapper
+   * @param {HTMLImageElement} thumbnail - Thumbnail element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} customThumb - Custom thumbnail URL
+   */
   function setupThumbnail(thumbnail, kind, customThumb) {
     if (!thumbnail) return;
 
     if (customThumb) {
-      
+      // Use custom thumbnail
       thumbnail.onerror = null;
       thumbnail.src = customThumb;
     } else if (kind.type === 'playlist') {
-      
+      // Use playlist placeholder
       thumbnail.src = getPlaylistPlaceholder();
     } else if (kind.type === 'video' && kind.id) {
-      
+      // Use YouTube thumbnail with fallback
       thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/maxresdefault.jpg`;
       thumbnail.onerror = () => {
         thumbnail.onerror = null;
         thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/0.jpg`;
       };
     }
-    
+    // For unknown type, keep the default placeholder
   }
 
-  
-
+  /**
+   * Creates embed URL for video or playlist
+   * @param {Object} kind - Parsed video/playlist info
+   * @returns {string} Embed URL or empty string if invalid
+   */
   function createEmbedUrl(kind) {
     if (kind.type === 'playlist' && kind.id) {
       return `${CONSTANTS.YOUTUBE_NOCOOKIE_DOMAIN}/embed/videoseries?list=${encodeURIComponent(kind.id)}&${CONSTANTS.EMBED_PARAMS}`;
@@ -3564,20 +3669,24 @@
     return '';
   }
 
-  
-
+  /**
+   * Creates and loads iframe embed
+   * @param {HTMLElement} wrapper - Video wrapper element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} title - Video title
+   */
   function loadEmbed(wrapper, kind, title) {
     if (wrapper.dataset.isLoaded === 'true') return;
 
     const embedUrl = createEmbedUrl(kind);
     if (!embedUrl) {
       console.error('Unable to create embed URL - invalid video/playlist ID');
-      
+      // Show error message to user
       wrapper.innerHTML = '<div style="padding: 2em; text-align: center; color: #fff;">Unable to load video. Please check the video ID.</div>';
       return;
     }
 
-    
+    // Create iframe
     const iframe = document.createElement('iframe');
     iframe.setAttribute('allowfullscreen', '');
     iframe.setAttribute('loading', 'lazy');
@@ -4023,31 +4132,38 @@
     return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
   }
 
-  
-
+  /**
+   * Sets up thumbnail for video wrapper
+   * @param {HTMLImageElement} thumbnail - Thumbnail element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} customThumb - Custom thumbnail URL
+   */
   function setupThumbnail(thumbnail, kind, customThumb) {
     if (!thumbnail) return;
 
     if (customThumb) {
-      
+      // Use custom thumbnail
       thumbnail.onerror = null;
       thumbnail.src = customThumb;
     } else if (kind.type === 'playlist') {
-      
+      // Use playlist placeholder
       thumbnail.src = getPlaylistPlaceholder();
     } else if (kind.type === 'video' && kind.id) {
-      
+      // Use YouTube thumbnail with fallback
       thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/maxresdefault.jpg`;
       thumbnail.onerror = () => {
         thumbnail.onerror = null;
         thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/0.jpg`;
       };
     }
-    
+    // For unknown type, keep the default placeholder
   }
 
-  
-
+  /**
+   * Creates embed URL for video or playlist
+   * @param {Object} kind - Parsed video/playlist info
+   * @returns {string} Embed URL or empty string if invalid
+   */
   function createEmbedUrl(kind) {
     if (kind.type === 'playlist' && kind.id) {
       return `${CONSTANTS.YOUTUBE_NOCOOKIE_DOMAIN}/embed/videoseries?list=${encodeURIComponent(kind.id)}&${CONSTANTS.EMBED_PARAMS}`;
@@ -4061,20 +4177,24 @@
     return '';
   }
 
-  
-
+  /**
+   * Creates and loads iframe embed
+   * @param {HTMLElement} wrapper - Video wrapper element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} title - Video title
+   */
   function loadEmbed(wrapper, kind, title) {
     if (wrapper.dataset.isLoaded === 'true') return;
 
     const embedUrl = createEmbedUrl(kind);
     if (!embedUrl) {
       console.error('Unable to create embed URL - invalid video/playlist ID');
-      
+      // Show error message to user
       wrapper.innerHTML = '<div style="padding: 2em; text-align: center; color: #fff;">Unable to load video. Please check the video ID.</div>';
       return;
     }
 
-    
+    // Create iframe
     const iframe = document.createElement('iframe');
     iframe.setAttribute('allowfullscreen', '');
     iframe.setAttribute('loading', 'lazy');
@@ -4245,7 +4365,7 @@
 		<a href="https://tylerknowsnothing.com/2025/09/29/pie-n-burger-at-lake.html" class="u-url"><time class="dt-published" datetime="2025-09-29 15:43:48 -0800">Sep 29, 2025</time></a>
 
 		<div class="e-content">
-			 <p>Pie &rsquo;n Burger at Lake &amp; California near where the Tandy RadioShack store used to be (now a Starbucks). The Fair Oaks Pharmacy when there was still the Thrifty&rsquo;s across the street. These are some of the flavors of my childhood. #food #culture #PhilRosenthal <a href="https://web.archive.org/web/20250923114933/https://www.latimes.com/food/story/2025-09-22/diner-crawl-nancy-silverton-phil-rosenthal-max-and-helens">web.archive.org/web/20250&hellip;</a></p>
+			 <p>Pie &lsquo;n Burger at Lake &amp; California near where the Tandy RadioShack store used to be (now a Starbucks). The Fair Oaks Pharmacy when there was still the Thrifty&rsquo;s across the street. These are some of the flavors of my childhood. #food #culture #PhilRosenthal <a href="https://web.archive.org/web/20250923114933/https://www.latimes.com/food/story/2025-09-22/diner-crawl-nancy-silverton-phil-rosenthal-max-and-helens">web.archive.org/web/20250&hellip;</a></p>
 
 		</div>
 	  </div>
@@ -4402,7 +4522,7 @@ NATO: Gets a phone call.
 <li>Clevatess (CR)</li>
 <li>Onmyou Kaiten Re:Birth Verse (CR)</li>
 <li>Dealing with the Mikadono Sisters is a Breeze (CR)</li>
-<li>There&rsquo;s No Freakin&rsquo; Way I&rsquo;ll Become Your Lover! Unless&hellip; (YT)</li>
+<li>There&rsquo;s No Freakin' Way I&rsquo;ll Become Your Lover! Unless&hellip; (YT)</li>
 <li>Hell Teacher Nube (YT)</li>
 <li>Leviathan (N)</li>
 <li>Turkey! - Time to Strike (CR)</li>
@@ -4972,7 +5092,7 @@ YT = YouTube</p>
 		<a href="https://tylerknowsnothing.com/2025/05/28/lolz-yes-very-much-elonmusk.html" class="u-url"><time class="dt-published" datetime="2025-05-28 15:57:14 -0800">May 28, 2025</time></a>
 
 		<div class="e-content">
-			 <p>LOLZ. Yes. Very much. #ElonMusk is not a genius. And &ldquo;fake it &rsquo;til you make it&rdquo; isn&rsquo;t magic. He had money, made more money, and hired the right people. Big whoop. Or, as this article puts it, he&rsquo;s not Tony Stark but Michael Scott #capitalism #tesla #tech <a href="https://www.thebulwark.com/p/elon-musk-self-driving-fsd-tesla-tony-stark-michael-scott">www.thebulwark.com/p/elon-mu&hellip;</a></p>
+			 <p>LOLZ. Yes. Very much. #ElonMusk is not a genius. And &ldquo;fake it &lsquo;til you make it&rdquo; isn&rsquo;t magic. He had money, made more money, and hired the right people. Big whoop. Or, as this article puts it, he&rsquo;s not Tony Stark but Michael Scott #capitalism #tesla #tech <a href="https://www.thebulwark.com/p/elon-musk-self-driving-fsd-tesla-tony-stark-michael-scott">www.thebulwark.com/p/elon-mu&hellip;</a></p>
 
 		</div>
 	  </div>
@@ -5233,7 +5353,7 @@ YT = YouTube</p>
 		<a href="https://tylerknowsnothing.com/2025/05/21/lets-show-nsmugs-new-youtube.html" class="u-url"><time class="dt-published" datetime="2025-05-21 07:40:32 -0800">May 21, 2025</time></a>
 
 		<div class="e-content">
-			 <p>Let&rsquo;s show NSMug&rsquo;s new #YouTube channel some love. He&rsquo;s got six subs now. So, views, shares, likes, and more subs are appreciated. He&rsquo;s doing his part to preserve the Olde&rsquo; Ways and peeps who work this hard for love need support. #apple #retrocompting <a href="https://www.youtube.com/watch?v=WK7qnFGvYBo">www.youtube.com/watch</a></p>
+			 <p>Let&rsquo;s show NSMug&rsquo;s new #YouTube channel some love. He&rsquo;s got six subs now. So, views, shares, likes, and more subs are appreciated. He&rsquo;s doing his part to preserve the Olde' Ways and peeps who work this hard for love need support. #apple #retrocompting <a href="https://www.youtube.com/watch?v=WK7qnFGvYBo">www.youtube.com/watch</a></p>
 
 		</div>
 	  </div>
@@ -5728,7 +5848,7 @@ That is all. #scifi #tv #90s <a href="https://youtu.be/uT42ldiYM4c">youtu.be/uT4
 		<a href="https://tylerknowsnothing.com/2025/05/02/nowplaying-nothing-manor-the-english.html" class="u-url"><time class="dt-published" datetime="2025-05-02 10:01:27 -0800">May 2, 2025</time></a>
 
 		<div class="e-content">
-			 <p>#NowPlaying @ Nothing Manor: The English Beat - Special Beat Service Expanded 2012 Remaster (1982). I don&rsquo;t recall if it was my first tape, but it&rsquo;s the first I think of when reminiscing. I&rsquo;ll never forget Rankin&rsquo; Roger and Pato Banton. #music #ska #KROQ <a href="https://youtube.com/playlist?list=OLAK5uy_mr4CFJeZW6r8di0dWmw3z7ePaXppNQBG8&amp;si=23hDAbCR0elMm9SI">youtube.com/playlist</a></p>
+			 <p>#NowPlaying @ Nothing Manor: The English Beat - Special Beat Service Expanded 2012 Remaster (1982). I don&rsquo;t recall if it was my first tape, but it&rsquo;s the first I think of when reminiscing. I&rsquo;ll never forget Rankin' Roger and Pato Banton. #music #ska #KROQ <a href="https://youtube.com/playlist?list=OLAK5uy_mr4CFJeZW6r8di0dWmw3z7ePaXppNQBG8&amp;si=23hDAbCR0elMm9SI">youtube.com/playlist</a></p>
 <!-- raw HTML omitted -->
 
 		</div>
@@ -5740,7 +5860,7 @@ That is all. #scifi #tv #90s <a href="https://youtu.be/uT42ldiYM4c">youtu.be/uT4
 		<a href="https://tylerknowsnothing.com/2025/05/02/wow-just-holy-freakin-wow.html" class="u-url"><time class="dt-published" datetime="2025-05-02 09:37:05 -0800">May 2, 2025</time></a>
 
 		<div class="e-content">
-			 <p>Wow! Just holy freakin&rsquo; WOW!! #music #radiohead #creep #covers <a href="https://kottke.org/25/05/is-this-the-best-cover-of-radioheads-creep">kottke.org/25/05/is-&hellip;</a></p>
+			 <p>Wow! Just holy freakin' WOW!! #music #radiohead #creep #covers <a href="https://kottke.org/25/05/is-this-the-best-cover-of-radioheads-creep">kottke.org/25/05/is-&hellip;</a></p>
 
 		</div>
 	  </div>
@@ -6277,7 +6397,7 @@ That is all. #scifi #tv #90s <a href="https://youtu.be/uT42ldiYM4c">youtu.be/uT4
 <li>Osananajimi Ga Zettai Ni Makenai Love Comedy †</li>
 <li>Seirei Gensouki Spirit Chronicles</li>
 <li>Girlfriend, Girlfriend †</li>
-<li>Mother of the Goddess&rsquo; Dormitory</li>
+<li>Mother of the Goddess' Dormitory</li>
 <li>The Hidden Dungeon Only I Can Enter</li>
 <li>A Couple of Cuckoos †</li>
 <li>The Rising of the Shield Hero: Season 2</li>
@@ -6300,7 +6420,7 @@ That is all. #scifi #tv #90s <a href="https://youtu.be/uT42ldiYM4c">youtu.be/uT4
 <li>Tenpuru: No One Can Live On Lonliness</li>
 <li>The 100 Girlfriends Who Really, Really, Really, Really, Really Love You †</li>
 <li>The New Gate</li>
-<li>Chillin&rsquo; In Another World With Level 2 Super Cheat Powers</li>
+<li>Chillin' In Another World With Level 2 Super Cheat Powers</li>
 <li>Konosuba - God&rsquo;s Blessing on This Wonderful World! Season 3 †</li>
 <li>I Was Reincarnated as the 7th Prince So I Can Take My Time Perfecting My Magical Ability † ††</li>
 <li>Plus-Sized Elf</li>
@@ -6554,7 +6674,7 @@ That is all. #scifi #tv #90s <a href="https://youtu.be/uT42ldiYM4c">youtu.be/uT4
 		<a href="https://tylerknowsnothing.com/2025/04/05/as-heartbreaking-as-it-seems.html" class="u-url"><time class="dt-published" datetime="2025-04-05 07:33:50 -0800">Apr 5, 2025</time></a>
 
 		<div class="e-content">
-			 <p>As heartbreaking as it seems, #Nintendo&rsquo;s pricing for the #Switch2 and its games is not an increase over previous years. For more details on the why and how of that, check out Nintendo Forecasts&rsquo; video on the matter. #videogames #inflation #economics <a href="https://www.youtube.com/watch?v=sAVhNxbmoe8">www.youtube.com/watch</a></p>
+			 <p>As heartbreaking as it seems, #Nintendo&rsquo;s pricing for the #Switch2 and its games is not an increase over previous years. For more details on the why and how of that, check out Nintendo Forecasts' video on the matter. #videogames #inflation #economics <a href="https://www.youtube.com/watch?v=sAVhNxbmoe8">www.youtube.com/watch</a></p>
 
 		</div>
 	  </div>
@@ -7146,7 +7266,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/03/16/does-your-git-up-n.html" class="u-url"><time class="dt-published" datetime="2025-03-16 16:29:57 -0800">Mar 16, 2025</time></a>
 
 		<div class="e-content">
-			 <p>Does your git up n&rsquo; go need #Goose? I&rsquo;ve been jamming to this January 6th show streaming live on #YouTube for an hour and a half and it&rsquo;s only half way through! #music #NowPlaying #JamBands <a href="https://www.youtube.com/watch?v=BQSavJ-sULs">www.youtube.com/watch</a></p>
+			 <p>Does your git up n' go need #Goose? I&rsquo;ve been jamming to this January 6th show streaming live on #YouTube for an hour and a half and it&rsquo;s only half way through! #music #NowPlaying #JamBands <a href="https://www.youtube.com/watch?v=BQSavJ-sULs">www.youtube.com/watch</a></p>
 <!-- raw HTML omitted -->
 
 		</div>
@@ -7355,7 +7475,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/03/11/the-wife-and-i-have.html" class="u-url"><time class="dt-published" datetime="2025-03-11 08:35:12 -0800">Mar 11, 2025</time></a>
 
 		<div class="e-content">
-			 <p>The wife and I have been seriously diggin&rsquo; on #Goose of late, and this new-to-us video is a fantastic illustration of their greatness. Bring over the peeps and turn it up, then prepare to grin until it hurts. #music #jambands <a href="https://www.youtube.com/watch?v=DF2QKZ823HY">www.youtube.com/watch</a></p>
+			 <p>The wife and I have been seriously diggin' on #Goose of late, and this new-to-us video is a fantastic illustration of their greatness. Bring over the peeps and turn it up, then prepare to grin until it hurts. #music #jambands <a href="https://www.youtube.com/watch?v=DF2QKZ823HY">www.youtube.com/watch</a></p>
 
 		</div>
 	  </div>
@@ -7582,7 +7702,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/03/07/nowplaying-nothing-manor-guns-n.html" class="u-url"><time class="dt-published" datetime="2025-03-07 19:24:11 -0800">Mar 7, 2025</time></a>
 
 		<div class="e-content">
-			 <p>#NowPlaying @ Nothing Manor: Guns N&rsquo; Roses - Use Your Illusion II (2022 Remaster). I haven&rsquo;t fired up any GNR for at least two decades, and they were hot amongst my pot-smoking pals back in the day. Not sure why I stopped. #music #rock #hardrock <a href="https://www.youtube.com/playlist?list=PLfS6y9lIweW6xSixUh0MiGy3SvyFymyin">www.youtube.com/playlist</a></p>
+			 <p>#NowPlaying @ Nothing Manor: Guns N' Roses - Use Your Illusion II (2022 Remaster). I haven&rsquo;t fired up any GNR for at least two decades, and they were hot amongst my pot-smoking pals back in the day. Not sure why I stopped. #music #rock #hardrock <a href="https://www.youtube.com/playlist?list=PLfS6y9lIweW6xSixUh0MiGy3SvyFymyin">www.youtube.com/playlist</a></p>
 <!-- raw HTML omitted -->
 
 		</div>
@@ -7740,7 +7860,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/03/05/nowplaying-nothing-manor-descartes-a.html" class="u-url"><time class="dt-published" datetime="2025-03-05 09:55:36 -0800">Mar 5, 2025</time></a>
 
 		<div class="e-content">
-			 <p>#NowPlaying @ Nothing Manor: Descartes A Kant - Live on KEXP (2024). I get serious DEVO vibes from this band, but they&rsquo;ve created their own sound, and I&rsquo;m diggin&rsquo; it. Definitely worth 45 minutes of your time. #music #rock #neopunk #DAK <a href="https://www.youtube.com/watch?v=88An9-G25Ts">www.youtube.com/watch</a></p>
+			 <p>#NowPlaying @ Nothing Manor: Descartes A Kant - Live on KEXP (2024). I get serious DEVO vibes from this band, but they&rsquo;ve created their own sound, and I&rsquo;m diggin' it. Definitely worth 45 minutes of your time. #music #rock #neopunk #DAK <a href="https://www.youtube.com/watch?v=88An9-G25Ts">www.youtube.com/watch</a></p>
 <!-- raw HTML omitted -->
 
 		</div>
@@ -8230,7 +8350,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/02/27/nowplaying-nothing-manor-david-lee.html" class="u-url"><time class="dt-published" datetime="2025-02-27 11:20:38 -0800">Feb 27, 2025</time></a>
 
 		<div class="e-content">
-			 <p>#NowPlaying @ Nothing Manor: David Lee Roth - The Warner Recordings (1985-1994)(2025). This boxset includes fully remastered repros of DLR&rsquo;s debut EP, Eat &rsquo;em and Smile, Skyscraper, and Your Filthy Little Mouth. Sounds great so far. #music #rock #hardrock <a href="https://youtube.com/playlist?list=OLAK5uy_m0ekEimruYJT86-EFD4dAmb2KhuYxBWKI&amp;si=TOcZiIo32cd-14Nw">youtube.com/playlist</a></p>
+			 <p>#NowPlaying @ Nothing Manor: David Lee Roth - The Warner Recordings (1985-1994)(2025). This boxset includes fully remastered repros of DLR&rsquo;s debut EP, Eat &lsquo;em and Smile, Skyscraper, and Your Filthy Little Mouth. Sounds great so far. #music #rock #hardrock <a href="https://youtube.com/playlist?list=OLAK5uy_m0ekEimruYJT86-EFD4dAmb2KhuYxBWKI&amp;si=TOcZiIo32cd-14Nw">youtube.com/playlist</a></p>
 <!-- raw HTML omitted -->
 
 		</div>
@@ -8918,7 +9038,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/02/13/it-could-be-the-iphone.html" class="u-url"><time class="dt-published" datetime="2025-02-13 12:31:57 -0800">Feb 13, 2025</time></a>
 
 		<div class="e-content">
-			 <p>It could be the #iPhone SE4, but I&rsquo;d like to note that Mr. Cook asks us to &ldquo;Get ready to meet the newest member of the family.&rdquo; I think it could be the return of the AirPort. Look at the graphic for the announcement and the AirPort A1034 attached. Just sayin&rsquo;. #tech #Apple <a href="https://9to5mac.com/2025/02/13/apple-teases-special-product-launch-coming-february-19/">9to5mac.com/2025/02/1&hellip;</a></p>
+			 <p>It could be the #iPhone SE4, but I&rsquo;d like to note that Mr. Cook asks us to &ldquo;Get ready to meet the newest member of the family.&rdquo; I think it could be the return of the AirPort. Look at the graphic for the announcement and the AirPort A1034 attached. Just sayin'. #tech #Apple <a href="https://9to5mac.com/2025/02/13/apple-teases-special-product-launch-coming-february-19/">9to5mac.com/2025/02/1&hellip;</a></p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 
 		</div>
@@ -9089,7 +9209,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/02/10/move-fast-and-break-shit.html" class="u-url"><time class="dt-published" datetime="2025-02-10 16:02:30 -0800">Feb 10, 2025</time></a>
 
 		<div class="e-content">
-			 <p>Move fast and break shit shouldn&rsquo;t be a thing one can do to a society&hellip; I&rsquo;m just sayin&rsquo;. #elonmusk #TFG #uspol #fascism #toxiccapitalism #americanoligarchy <a href="https://www.theverge.com/elon-musk/609164/auto-draft">www.theverge.com/elon-musk&hellip;</a></p>
+			 <p>Move fast and break shit shouldn&rsquo;t be a thing one can do to a society&hellip; I&rsquo;m just sayin'. #elonmusk #TFG #uspol #fascism #toxiccapitalism #americanoligarchy <a href="https://www.theverge.com/elon-musk/609164/auto-draft">www.theverge.com/elon-musk&hellip;</a></p>
 
 		</div>
 	  </div>
@@ -10017,7 +10137,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/01/25/nowplaying-nothing-manor-cheap-trick.html" class="u-url"><time class="dt-published" datetime="2025-01-25 10:29:16 -0800">Jan 25, 2025</time></a>
 
 		<div class="e-content">
-			 <p>#NowPlaying @ Nothing Manor: Cheap Trick - Heaven Tonight (1978). I just love Cheap Trick. Fantastic rock band. Enormous catalog of music. Get diggin&rsquo;! #music #cheaptrick <a href="https://www.youtube.com/watch?v=QeKHow0Mw2w">www.youtube.com/watch</a></p>
+			 <p>#NowPlaying @ Nothing Manor: Cheap Trick - Heaven Tonight (1978). I just love Cheap Trick. Fantastic rock band. Enormous catalog of music. Get diggin'! #music #cheaptrick <a href="https://www.youtube.com/watch?v=QeKHow0Mw2w">www.youtube.com/watch</a></p>
 <!-- raw HTML omitted -->
 
 		</div>
@@ -10317,7 +10437,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/01/18/since-bingo-cards-seem-to.html" class="u-url"><time class="dt-published" datetime="2025-01-18 13:48:09 -0800">Jan 18, 2025</time></a>
 
 		<div class="e-content">
-			 <p>Since bingo cards seem to be the current metric by which culture is judged, I sure as hell didn&rsquo;t have &ldquo;Bitchin&rsquo; New OK Go Music Video&rdquo; on mine. I&rsquo;ll have to watch it again for the lyrics, though. It&rsquo;s just too mesmerizing the first time! #music #pop #musicvideo <a href="https://www.youtube.com/watch?v=MOEULOSVNK4">www.youtube.com/watch</a></p>
+			 <p>Since bingo cards seem to be the current metric by which culture is judged, I sure as hell didn&rsquo;t have &ldquo;Bitchin' New OK Go Music Video&rdquo; on mine. I&rsquo;ll have to watch it again for the lyrics, though. It&rsquo;s just too mesmerizing the first time! #music #pop #musicvideo <a href="https://www.youtube.com/watch?v=MOEULOSVNK4">www.youtube.com/watch</a></p>
 
 		</div>
 	  </div>
@@ -10385,7 +10505,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/01/16/nowplaying-nothing-manor-chris-cornell.html" class="u-url"><time class="dt-published" datetime="2025-01-16 19:23:51 -0800">Jan 16, 2025</time></a>
 
 		<div class="e-content">
-			 <p>#NowPlaying @ Nothing Manor: Chris Cornell - Euphoria Mourning (1999). Chris&rsquo; first solo album that illustrated a more lyrical and pensive side of his vocal talent and compositional prowess. A must listen. #music <a href="https://www.youtube.com/watch?v=gOw4-UY7p3Q&amp;list=OLAK5uy_m1TFEt_m54hEWk8EE48e3HlsHGIwfnJMw">www.youtube.com/watch</a></p>
+			 <p>#NowPlaying @ Nothing Manor: Chris Cornell - Euphoria Mourning (1999). Chris' first solo album that illustrated a more lyrical and pensive side of his vocal talent and compositional prowess. A must listen. #music <a href="https://www.youtube.com/watch?v=gOw4-UY7p3Q&amp;list=OLAK5uy_m1TFEt_m54hEWk8EE48e3HlsHGIwfnJMw">www.youtube.com/watch</a></p>
 <!-- raw HTML omitted -->
 
 		</div>
@@ -10787,7 +10907,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/01/08/nowplaying-nothing-manor-soul-coughing.html" class="u-url"><time class="dt-published" datetime="2025-01-08 17:40:33 -0800">Jan 8, 2025</time></a>
 
 		<div class="e-content">
-			 <p>#NowPlaying @ Nothing Manor: Soul Coughing - El Oso (1998). I was rollin&rsquo; to Soul Coughing long before I knew about Mike Doughty, his story, and his success at clawing his life and art back. I&rsquo;m only playing this now because he&rsquo;s reconciled with his former bandmates. #music <a href="https://www.youtube.com/watch?v=FIqBHOabyqY">www.youtube.com/watch</a></p>
+			 <p>#NowPlaying @ Nothing Manor: Soul Coughing - El Oso (1998). I was rollin' to Soul Coughing long before I knew about Mike Doughty, his story, and his success at clawing his life and art back. I&rsquo;m only playing this now because he&rsquo;s reconciled with his former bandmates. #music <a href="https://www.youtube.com/watch?v=FIqBHOabyqY">www.youtube.com/watch</a></p>
 <!-- raw HTML omitted -->
 
 		</div>
@@ -11131,7 +11251,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/01/03/for-a-time-i-was.html" class="u-url"><time class="dt-published" datetime="2025-01-03 11:02:13 -0800">Jan 3, 2025</time></a>
 
 		<div class="e-content">
-			 <p>For a time I was mad at #Microsoft for breaking their promise that #Windows10 would be the last #Windows, but then #Windows11 turned into a wet dream of #capitalism, bristling with ads, bloat, and AI features nobody wants while tracking users every move. Now ten months remain before MSFT pulls the plug on Windows 10 support, but 62.7% of all Windows users still use it. In fact, a number have ditched 11 to go back to 10. I&rsquo;m bustin&rsquo; a gut over this. Just buy an #Apple #Mac. #tech #news <a href="https://tech.slashdot.org/story/25/01/03/0056226/with-10-months-of-support-remaining-windows-10-still-dominates">tech.slashdot.org/story/25/&hellip;</a></p>
+			 <p>For a time I was mad at #Microsoft for breaking their promise that #Windows10 would be the last #Windows, but then #Windows11 turned into a wet dream of #capitalism, bristling with ads, bloat, and AI features nobody wants while tracking users every move. Now ten months remain before MSFT pulls the plug on Windows 10 support, but 62.7% of all Windows users still use it. In fact, a number have ditched 11 to go back to 10. I&rsquo;m bustin' a gut over this. Just buy an #Apple #Mac. #tech #news <a href="https://tech.slashdot.org/story/25/01/03/0056226/with-10-months-of-support-remaining-windows-10-still-dominates">tech.slashdot.org/story/25/&hellip;</a></p>
 
 		</div>
 	  </div>
@@ -11164,7 +11284,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2025/01/02/while-i-remain-unsurprised-i.html" class="u-url"><time class="dt-published" datetime="2025-01-02 08:20:20 -0800">Jan 2, 2025</time></a>
 
 		<div class="e-content">
-			 <p>While I remain unsurprised I am still mortified, more at the unapologetic, emotionless callousness of #Texas&rsquo; than of the disturbing number of babies left to die in ditches and dumpsters. Government prescribed subjugation of women will, after all, result in ugliness. Period. #humanrights #womensrights #abortion #health <a href="https://www.salon.com/2025/01/02/newborns-are-being-left-in-dumpsters-in-texas-but-dont-seem-to-care/">www.salon.com/2025/01/0&hellip;</a></p>
+			 <p>While I remain unsurprised I am still mortified, more at the unapologetic, emotionless callousness of #Texas' than of the disturbing number of babies left to die in ditches and dumpsters. Government prescribed subjugation of women will, after all, result in ugliness. Period. #humanrights #womensrights #abortion #health <a href="https://www.salon.com/2025/01/02/newborns-are-being-left-in-dumpsters-in-texas-but-dont-seem-to-care/">www.salon.com/2025/01/0&hellip;</a></p>
 
 		</div>
 	  </div>
@@ -11370,7 +11490,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2024/12/26/now-playing-nothing-manor-yes.html" class="u-url"><time class="dt-published" datetime="2024-12-26 16:40:08 -0800">Dec 26, 2024</time></a>
 
 		<div class="e-content">
-			 <p>Now Playing @ Nothing Manor: Yes - 90125 (1983). This is the first album of Yes&rsquo; third iteration and reinvention into a more commercially approachable act. The album spawned four singles, including the radio-friendly &lsquo;Owner of a Lonely Heart&rsquo; and hit #5 on the US Billboard 200. #music #nowplaying</p>
+			 <p>Now Playing @ Nothing Manor: Yes - 90125 (1983). This is the first album of Yes' third iteration and reinvention into a more commercially approachable act. The album spawned four singles, including the radio-friendly &lsquo;Owner of a Lonely Heart&rsquo; and hit #5 on the US Billboard 200. #music #nowplaying</p>
 <!-- raw HTML omitted -->
 
 		</div>
@@ -11716,7 +11836,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2024/12/18/from-what-i.html" class="u-url"><time class="dt-published" datetime="2024-12-18 13:14:57 -0800">Dec 18, 2024</time></a>
 
 		<div class="e-content">
-			 <p>From what I hear, she freakin&rsquo; nailed it :) Good for her&hellip; and also, there are no legit jobs that require you to stop being who you are 24/7/365, so taking time off to make a personal dream come true is a non-issue. Period. Full stop. #uspol #scotus #broadway #stage #nontroversy <a href="https://www.theroot.com/justice-ketanji-brown-jackson-just-debuted-on-broadway-1851723169">www.theroot.com/justice-k&hellip;</a></p>
+			 <p>From what I hear, she freakin' nailed it :) Good for her&hellip; and also, there are no legit jobs that require you to stop being who you are 24/7/365, so taking time off to make a personal dream come true is a non-issue. Period. Full stop. #uspol #scotus #broadway #stage #nontroversy <a href="https://www.theroot.com/justice-ketanji-brown-jackson-just-debuted-on-broadway-1851723169">www.theroot.com/justice-k&hellip;</a></p>
 
 		</div>
 	  </div>
@@ -11850,7 +11970,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2024/12/15/apple-if-this.html" class="u-url"><time class="dt-published" datetime="2024-12-15 14:15:57 -0800">Dec 15, 2024</time></a>
 
 		<div class="e-content">
-			 <p>#Apple, if this is true, I&rsquo;m actually disappointed in you! The charging port on the Magic Mouse is now iconic and a genuine meme. You can&rsquo;t go a-changin&rsquo; now!! #rumors <a href="https://9to5mac.com/2024/12/15/report-new-magic-mouse/">9to5mac.com/2024/12/1&hellip;</a></p>
+			 <p>#Apple, if this is true, I&rsquo;m actually disappointed in you! The charging port on the Magic Mouse is now iconic and a genuine meme. You can&rsquo;t go a-changin' now!! #rumors <a href="https://9to5mac.com/2024/12/15/report-new-magic-mouse/">9to5mac.com/2024/12/1&hellip;</a></p>
 
 		</div>
 	  </div>
@@ -11883,7 +12003,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2024/12/13/the-game-awards.html" class="u-url"><time class="dt-published" datetime="2024-12-13 20:40:03 -0800">Dec 13, 2024</time></a>
 
 		<div class="e-content">
-			 <p>The Game Awards&hellip; Heard of &rsquo;em? Don&rsquo;t care? Just like #VideoGames? Same here. In fact, the only game I am excited for is Dispatch, a superhero workplace comedy. #youtube #trailer <a href="https://www.youtube.com/watch?v=ZbERWU5bc50">www.youtube.com/watch</a></p>
+			 <p>The Game Awards&hellip; Heard of &lsquo;em? Don&rsquo;t care? Just like #VideoGames? Same here. In fact, the only game I am excited for is Dispatch, a superhero workplace comedy. #youtube #trailer <a href="https://www.youtube.com/watch?v=ZbERWU5bc50">www.youtube.com/watch</a></p>
 
 		</div>
 	  </div>
@@ -12040,7 +12160,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2024/12/10/215534.html" class="u-url"><time class="dt-published" datetime="2024-12-10 21:55:34 -0800">Dec 10, 2024</time></a>
 
 		<div class="e-content">
-			 <p><a href="https://www.polygon.com/animation-cartoons/493018/flow-director-animated-away-movie">www.polygon.com/animation&hellip;</a> #animation #movies I&rsquo;ve recently watched <em>Away</em> for the first time and was blown away. I nearly passed out when I found out it was made by one person. Now director Gints Zilbalodis&rsquo; new film <em>Flow</em> is in theaters now and people appear to be loving it. If you haven&rsquo;t seen <em>Away</em> yet, you can watch it now for free on Tubi, with ads of course. But you should buy the Blu-Ray or rent it, as it&rsquo;s better without interruptions.</p>
+			 <p><a href="https://www.polygon.com/animation-cartoons/493018/flow-director-animated-away-movie">www.polygon.com/animation&hellip;</a> #animation #movies I&rsquo;ve recently watched <em>Away</em> for the first time and was blown away. I nearly passed out when I found out it was made by one person. Now director Gints Zilbalodis' new film <em>Flow</em> is in theaters now and people appear to be loving it. If you haven&rsquo;t seen <em>Away</em> yet, you can watch it now for free on Tubi, with ads of course. But you should buy the Blu-Ray or rent it, as it&rsquo;s better without interruptions.</p>
 
 		</div>
 	  </div>
@@ -12873,7 +12993,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2024/11/16/despite-being-cancelled.html" class="u-url"><time class="dt-published" datetime="2024-11-16 15:54:03 -0800">Nov 16, 2024</time></a>
 
 		<div class="e-content">
-			 <p>Despite being cancelled after the second season (apparently the bill for production has been upwards of $250 million and it shows) #Arcane on #Netflix is an absolute, unquestionable masterpiece of #storytelling, #animation, #television, and just plain ol&rsquo; #artistic excellence, and all from a little know French animation studio called #Fortiche. Even if they got to finish it, you&rsquo;d never want it to end, but I understand it wraps up rather well anyway.</p>
+			 <p>Despite being cancelled after the second season (apparently the bill for production has been upwards of $250 million and it shows) #Arcane on #Netflix is an absolute, unquestionable masterpiece of #storytelling, #animation, #television, and just plain ol' #artistic excellence, and all from a little know French animation studio called #Fortiche. Even if they got to finish it, you&rsquo;d never want it to end, but I understand it wraps up rather well anyway.</p>
 <!-- raw HTML omitted -->
 
 		</div>
@@ -13155,7 +13275,7 @@ Switch 2 + Mario Kart World: $499</p>
 <p>Out of all of DC’s Warner Bros. Animation’s works <em>Watchmen Chapter I</em> sits near the top as one of the best, and not because it’s their first “R” rated film. It is clear that the production team took the adaptation seriously, though were likely saddled with some constraints as illustrated by the short run-time, that there will only be one more part to complete the adaptation, and that quite a lot of contextual dialog was removed in translation.</p>
 <p>What I would really like to see from DC, however, is a real commitment to their animation works teams of writers and animators. I would see that as an increase in budgets for their animated features and to use their writers for their live-action films to increase the script quality well over their current efforts that have plodded onto the big screen.</p>
 <h2 id="tkns-nothing-score">TKN&rsquo;s Nothing Score™</h2>
-<p><img src="https://tylerknowsnothing.com/uploads/2024/tkn-rating-thumbsup.png" alt="1 of 5"><img src="https://tylerknowsnothing.com/uploads/2024/tkn-rating-thumbsup.png" alt="2 of 5"><img src="https://tylerknowsnothing.com/uploads/2024/tkn-rating-thumbsup.png" alt="3 of 5"><img src="https://tylerknowsnothing.com/uploads/2024/tkn-rating-half.png" alt="4 of 5"><img src="https://tylerknowsnothing.com/uploads/2024/tkn-rating-thumbsdown.png" alt="5 of 5"></p>
+<p><img src="https://cdn.uploads.micro.blog/151098/2024/tkn-rating-thumbsup.png" alt="1 of 5"><img src="https://cdn.uploads.micro.blog/151098/2024/tkn-rating-thumbsup.png" alt="2 of 5"><img src="https://cdn.uploads.micro.blog/151098/2024/tkn-rating-thumbsup.png" alt="3 of 5"><img src="https://cdn.uploads.micro.blog/151098/2024/tkn-rating-half.png" alt="4 of 5"><img src="https://cdn.uploads.micro.blog/151098/2024/tkn-rating-thumbsdown.png" alt="5 of 5"></p>
 <p>This is my first go at a rating system, so bear with me. I’m a nerd. I give <em>Watchmen Chapter 1</em> three and a half Macs, mostly for story and accuracy and detract points for not going all the way with the animation. Being such an important work from the 1980’s, I believe it deserved a lot more attention and care.</p>
 		</div>
 	  </div>
@@ -13168,7 +13288,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2024/08/28/we-spend-a.html" class="u-url"><time class="dt-published" datetime="2024-08-28 09:36:26 -0800">Aug 28, 2024</time></a>
 
 		<div class="e-content">
-			 <p><img src="https://tylerknowsnothing.com/uploads/2024/image-8-28-24-at-10.13am.png" alt="Orange County California Supervisor Andrew Do, accused of fraudulently directing millions of COVID-19 relief fund dollars to a non-profit that employs his daughter and subsequently used for personal expenses. "></p>
+			 <p><img src="https://cdn.uploads.micro.blog/151098/2024/image-8-28-24-at-10.13am.png" alt="Orange County California Supervisor Andrew Do, accused of fraudulently directing millions of COVID-19 relief fund dollars to a non-profit that employs his daughter and subsequently used for personal expenses. "></p>
 <p>We spend a lot of time focusing on the National elections. There&rsquo;s nothing wrong with this, but this singular gaze has, for years now, been shifting our attention from local issues to the National stage, and we do so to our civic peril. Over and over again we see so-called politicians leveraging public office for personal gain, regardless of party affiliation. Stay awake. Keep your head on a swivel. #uspol #localpolitics #california #corruption</p>
 <p>&ldquo;Orange County Supervisors Katrina Foley and Vicente Sarmiento are calling for Supervisor Andrew Do to resign Wednesday as authorities investigate allegations of fraudulent spending of COVID-19 relief funds by a nonprofit that employed Do’s daughter.&rdquo;</p>
 <p>&ldquo;Earlier this month, the county sued the Viet America Society and its President Peter Pham, alleging misappropriation of millions of dollars of pandemic relief earmarked for delivery of meals to needy residents. The Hand to Hand Relief organization, which subcontracted with Viet America Society, was also sued.&rdquo;</p>
@@ -13184,7 +13304,7 @@ Switch 2 + Mario Kart World: $499</p>
 		<a href="https://tylerknowsnothing.com/2024/08/22/seven-banks-loaned.html" class="u-url"><time class="dt-published" datetime="2024-08-22 14:21:24 -0800">Aug 22, 2024</time></a>
 
 		<div class="e-content">
-			 <p><img src="https://tylerknowsnothing.com/uploads/2024/image-1.png" alt="https://tylerknowsnothing.com/uploads/2024/image-1.png">
+			 <p><img src="https://cdn.uploads.micro.blog/151098/2024/image-1.png" alt="https://cdn.uploads.micro.blog/151098/2024/image-1.png">
 “Seven banks loaned Elon Musk money totaling $13 billion in 2022 to help him buy Twitter, now known by the obnoxiously generic name X … the [Wall Street] Journal explains that this wasn’t just one of the worst deals since 2008, it’s one of the worst deals of all time.”</p>
 <p>Over the years I have offered many examples of why he’s an idiot. This one takes the cake. #elonmusk #tesla #twitter #xitter #finance <a href="https://gizmodo.com/bankers-have-lost-so-much-money-thanks-to-elons-terrible-twitter-deal-2000489136">gizmodo.com/bankers-h&hellip;</a></p>
 
