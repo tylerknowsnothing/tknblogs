@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://tknblogs.micro.blog/2026/03/19/this-looks-amazing-and-theyve.html",
+				
+				"content_html": "<p>This looks amazing, and they&rsquo;ve gotten well past their Kickstarter goal. With a week to go, it&rsquo;ll be interesting to see if they can get all of the stretch goals met. #SciFi #SCP #animation <a href=\"https://www.youtube.com/watch?v=RSbPdf3CGD8\">www.youtube.com/watch</a></p>\n",
+				"content_text": "This looks amazing, and they've gotten well past their Kickstarter goal. With a week to go, it'll be interesting to see if they can get all of the stretch goals met. #SciFi #SCP #animation [www.youtube.com/watch](https://www.youtube.com/watch?v=RSbPdf3CGD8)\n",
+				"date_published": "2026-03-19T23:08:06-07:00",
+				"url": "https://tylerknowsnothing.com/2026/03/19/this-looks-amazing-and-theyve.html",
+				"tags": ["animation","scifi","Microposts"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2026/03/19/please-dear-god-upgrade-to.html",
+				
+				"content_html": "<p>Please, dear GOD, upgrade to iOS 26, iOS 18 users. You may truly despise Liquid Glass, but I&rsquo;m betting you hate getting robbed significantly more. #opsec #iPhone #security #scams #PSA <a href=\"https://arstechnica.com/security/2026/03/hundreds-of-millions-of-iphones-can-be-hacked-with-a-new-tool-found-in-the-wild/\">Millions of iPhones can be hacked with a new tool found in the wild</a></p>\n",
+				"content_text": "Please, dear GOD, upgrade to iOS 26, iOS 18 users. You may truly despise Liquid Glass, but I'm betting you hate getting robbed significantly more. #opsec #iPhone #security #scams #PSA [Millions of iPhones can be hacked with a new tool found in the wild](https://arstechnica.com/security/2026/03/hundreds-of-millions-of-iphones-can-be-hacked-with-a-new-tool-found-in-the-wild/)\n\n",
+				"date_published": "2026-03-19T18:17:36-07:00",
+				"url": "https://tylerknowsnothing.com/2026/03/19/please-dear-god-upgrade-to.html",
+				"tags": ["apple","security","technology","Microposts"]
+			},
+			{
 				"id": "http://tknblogs.micro.blog/2026/03/18/well-know-that-the-robot.html",
 				
 				"content_html": "<p>We&rsquo;ll know that the robot apocalypse will have begun when we see contentious dance-offs springing up worldwide. #technology #robotics #crapitalism <a href=\"https://kotaku.com/dancing-robot-causes-chaos-viral-video-staff-struggle-to-stop-it-2000680033\">Dancing Robot Refuses To Stop Causing Chaos At Family Restaurant</a>:</p>\n",
