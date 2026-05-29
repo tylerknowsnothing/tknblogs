@@ -25,6 +25,514 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://tylerknowsnothing.com/2026/05/29/freedom-is-in-hospice-care.html" class="u-url"><time class="dt-published" datetime="2026-05-29 08:51:50 -0700">May 29, 2026</time></a>
+
+		<div class="e-content">
+			 <p>Freedom is in hospice care. #NY shoehorned anti-maker #surveillance legislation into their budget claiming to target ghost guns, but not understanding how much they&rsquo;re actually breaking in the process. CNC, lathes, laser cutters, 3D printers &amp; more are included. #uspol #tech #rights</p>
+
+<style>
+:root {
+   
+  --yt-aspect-ratio-16-9: 56.25%;
+
+   
+  --yt-bg-black: #000;
+  --yt-play-button-bg: rgba(255, 0, 0, 0.8);
+  --yt-play-button-bg-hover: rgba(255, 0, 0, 1);
+  --yt-play-button-icon: #fff;
+  --yt-overlay-bg: rgba(0, 0, 0, 0.85);
+  --yt-overlay-text: #fff;
+  --yt-focus-outline: #e53935;
+
+   
+  --yt-play-button-width: 68px;
+  --yt-play-button-height: 48px;
+  --yt-play-button-border-radius: 12px;
+
+   
+  --yt-focus-outline-width: 3px;
+  --yt-focus-outline-offset: 4px;
+
+   
+  --yt-transition-duration: 0.2s;
+  --yt-transition-timing: ease-in-out;
+}
+
+.video-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  padding-bottom: var(--yt-aspect-ratio-16-9);
+  margin: 0;
+  height: 0;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: var(--yt-bg-black);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.video-wrapper[data-is-loaded="true"] {
+  cursor: auto;
+}
+
+.video-wrapper:focus-visible {
+  outline: var(--yt-focus-outline-width) solid var(--yt-focus-outline);
+  outline-offset: var(--yt-focus-outline-offset);
+}
+
+.video-thumbnail {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  background-color: var(--yt-bg-black);
+  z-index: 1;
+  transition: opacity var(--yt-transition-duration) var(--yt-transition-timing);
+}
+
+.video-wrapper:hover .video-thumbnail {
+  opacity: 0.9;
+}
+
+.video-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--yt-overlay-bg);
+  color: var(--yt-overlay-text);
+  text-align: center;
+  font-size: 0.85em;
+  padding: 0.5em 1em;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--yt-play-button-width);
+  height: var(--yt-play-button-height);
+  background-color: var(--yt-play-button-bg);
+  border-radius: var(--yt-play-button-border-radius);
+  z-index: 3;
+  pointer-events: none;
+  transition: all var(--yt-transition-duration) var(--yt-transition-timing);
+}
+
+.video-wrapper:hover .video-play-button {
+  background-color: var(--yt-play-button-bg-hover);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.video-wrapper:active .video-play-button {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.video-play-button::before {
+  content: '';
+  position: absolute;
+  left: 26px;
+  top: 14px;
+  width: 0;
+  height: 0;
+  border-left: 18px solid var(--yt-play-button-icon);
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  z-index: 4;
+}
+
+.video-noscript {
+  display: block;
+  max-width: 100%;
+  background-color: var(--yt-bg-black);
+  color: inherit;
+  text-align: center;
+  padding: 0;
+  margin-top: 0.5em;
+}
+
+.video-noscript img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.video-noscript a {
+  display: inline-block;
+  padding: 0.75em 1em;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.yt-text-link {
+  display: none;
+}
+</style>
+
+<script>
+(function(){
+  'use strict';
+
+  
+  const CONSTANTS = {
+    VIDEO_ID_LENGTH: 11,
+    MAX_INPUT_LENGTH: 2048,
+    VIDEO_ID_PATTERN: /^[a-zA-Z0-9_-]{11}$/,
+    PLAYLIST_PREFIXES: /^(PL|OL|UU|LL|FL)/i,
+    ALLOWED_URL_CHARS: /^[a-zA-Z0-9_\-?=&#:/.]+$/,
+    TIME_FORMATS: {
+      HOURS: 3600,
+      MINUTES: 60,
+      SECONDS: 1
+    },
+    YOUTUBE_NOCOOKIE_DOMAIN: 'https://www.youtube-nocookie.com',
+    YOUTUBE_IMG_DOMAIN: 'https://img.youtube.com',
+    EMBED_PARAMS: 'autoplay=1&mute=1'
+  };
+
+  
+
+  function validateInput(input, maxLength = CONSTANTS.MAX_INPUT_LENGTH) {
+    if (!input || typeof input !== 'string') return '';
+
+    const trimmed = input.trim();
+
+    if (trimmed.length > maxLength) {
+      console.warn(`Input exceeds maximum length of ${maxLength}`);
+      return '';
+    }
+
+    
+    if (!CONSTANTS.ALLOWED_URL_CHARS.test(trimmed)) {
+      console.warn('Input contains invalid characters');
+      return '';
+    }
+
+    return trimmed;
+  }
+
+  
+
+  function parseStartValue(value) {
+    if (!value) return 0;
+
+    
+    if (/^\d+$/.test(value)) {
+      const parsed = parseInt(value, 10);
+      return isNaN(parsed) ? 0 : Math.max(0, parsed);
+    }
+
+    
+    let total = 0;
+    let matched = false;
+    const regex = /(\d+)(h|m|s)/gi;
+    let match;
+
+    while ((match = regex.exec(value)) !== null) {
+      matched = true;
+      const num = parseInt(match[1], 10);
+      if (isNaN(num)) continue;
+
+      const unit = match[2].toLowerCase();
+      if (unit === 'h') total += num * CONSTANTS.TIME_FORMATS.HOURS;
+      else if (unit === 'm') total += num * CONSTANTS.TIME_FORMATS.MINUTES;
+      else if (unit === 's') total += num * CONSTANTS.TIME_FORMATS.SECONDS;
+    }
+
+    return matched ? Math.max(0, total) : 0;
+  }
+
+  
+
+  function extractStartTime(queryString) {
+    if (!queryString) return 0;
+
+    try {
+      const cleanQuery = queryString.startsWith('?') || queryString.startsWith('#')
+        ? queryString.slice(1)
+        : queryString;
+
+      const params = new URLSearchParams(cleanQuery);
+
+      
+      return parseStartValue(params.get('start')) ||
+             parseStartValue(params.get('t')) ||
+             parseStartValue(params.get('time_continue')) ||
+             0;
+    } catch (e) {
+      console.warn('Failed to parse query parameters:', e);
+      return 0;
+    }
+  }
+
+  
+
+  function parseId(raw) {
+    const validated = validateInput(raw);
+    if (!validated) {
+      return { type: 'unknown', id: '', start: 0 };
+    }
+
+    let startSeconds = 0;
+    let normalized = validated;
+
+    
+    const queryIndex = normalized.indexOf('?');
+    if (queryIndex !== -1) {
+      startSeconds = extractStartTime(normalized.slice(queryIndex + 1));
+      normalized = normalized.slice(0, queryIndex);
+    }
+
+    
+    const hashIndex = normalized.indexOf('#');
+    if (hashIndex !== -1) {
+      startSeconds = startSeconds || extractStartTime(normalized.slice(hashIndex + 1));
+      normalized = normalized.slice(0, hashIndex);
+    }
+
+    
+    if (CONSTANTS.PLAYLIST_PREFIXES.test(normalized)) {
+      return { type: 'playlist', id: normalized, start: startSeconds };
+    }
+
+    
+    if (CONSTANTS.VIDEO_ID_PATTERN.test(normalized)) {
+      return { type: 'video', id: normalized, start: startSeconds };
+    }
+
+    
+    const listMatch = normalized.match(/list=([^&]+)/);
+    if (listMatch && listMatch[1]) {
+      return { type: 'playlist', id: listMatch[1], start: startSeconds };
+    }
+
+    console.warn('Unable to parse video/playlist ID:', raw);
+    return { type: 'unknown', id: '', start: startSeconds };
+  }
+
+  
+
+  function validateThumbnailUrl(thumbUrl) {
+    if (!thumbUrl) return '';
+
+    let cleaned = thumbUrl.trim();
+
+    
+    const markdownMatch = cleaned.match(/^\[[^\]]*\]\(([^)]+)\)$/);
+    if (markdownMatch) {
+      cleaned = markdownMatch[1].trim();
+    }
+
+    
+    try {
+      const url = new URL(cleaned, document.baseURI);
+
+      
+      if (url.protocol !== 'http:' && url.protocol !== 'https:') {
+        console.warn('Thumbnail URL must use http or https protocol');
+        return '';
+      }
+
+      return url.href;
+    } catch (e) {
+      console.warn('Invalid thumbnail URL:', e);
+      return '';
+    }
+  }
+
+  
+
+  function getPlaylistPlaceholder() {
+    const svg = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 720'>` +
+                `<rect width='100%' height='100%' fill='#000'/>` +
+                `<rect x='220' y='260' width='840' height='60' fill='#fff'/>` +
+                `<rect x='220' y='340' width='660' height='60' fill='#fff'/>` +
+                `</svg>`;
+    return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+  }
+
+  /**
+   * Sets up thumbnail for video wrapper
+   * @param {HTMLImageElement} thumbnail - Thumbnail element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} customThumb - Custom thumbnail URL
+   */
+  function setupThumbnail(thumbnail, kind, customThumb) {
+    if (!thumbnail) return;
+
+    if (customThumb) {
+      // Use custom thumbnail
+      thumbnail.onerror = null;
+      thumbnail.src = customThumb;
+    } else if (kind.type === 'playlist') {
+      // Use playlist placeholder
+      thumbnail.src = getPlaylistPlaceholder();
+    } else if (kind.type === 'video' && kind.id) {
+      // Use YouTube thumbnail with fallback
+      thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/maxresdefault.jpg`;
+      thumbnail.onerror = () => {
+        thumbnail.onerror = null;
+        thumbnail.src = `${CONSTANTS.YOUTUBE_IMG_DOMAIN}/vi/${kind.id}/0.jpg`;
+      };
+    }
+    // For unknown type, keep the default placeholder
+  }
+
+  /**
+   * Creates embed URL for video or playlist
+   * @param {Object} kind - Parsed video/playlist info
+   * @returns {string} Embed URL or empty string if invalid
+   */
+  function createEmbedUrl(kind) {
+    if (kind.type === 'playlist' && kind.id) {
+      return `${CONSTANTS.YOUTUBE_NOCOOKIE_DOMAIN}/embed/videoseries?list=${encodeURIComponent(kind.id)}&${CONSTANTS.EMBED_PARAMS}`;
+    } else if (kind.type === 'video' && kind.id) {
+      let url = `${CONSTANTS.YOUTUBE_NOCOOKIE_DOMAIN}/embed/${encodeURIComponent(kind.id)}?${CONSTANTS.EMBED_PARAMS}`;
+      if (kind.start > 0) {
+        url += `&start=${Math.floor(kind.start)}`;
+      }
+      return url;
+    }
+    return '';
+  }
+
+  /**
+   * Creates and loads iframe embed
+   * @param {HTMLElement} wrapper - Video wrapper element
+   * @param {Object} kind - Parsed video/playlist info
+   * @param {string} title - Video title
+   */
+  function loadEmbed(wrapper, kind, title) {
+    if (wrapper.dataset.isLoaded === 'true') return;
+
+    const embedUrl = createEmbedUrl(kind);
+    if (!embedUrl) {
+      console.error('Unable to create embed URL - invalid video/playlist ID');
+      // Show error message to user
+      wrapper.innerHTML = '<div style="padding: 2em; text-align: center; color: #fff;">Unable to load video. Please check the video ID.</div>';
+      return;
+    }
+
+    // Create iframe
+    const iframe = document.createElement('iframe');
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.setAttribute('loading', 'lazy');
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+    iframe.setAttribute('title', title ? `YouTube video player: ${title}` : 'YouTube video player');
+    iframe.src = embedUrl;
+
+    
+    const replacement = document.createElement('div');
+    replacement.className = wrapper.className;
+    replacement.dataset.listenersAdded = 'true';
+    replacement.dataset.isLoaded = 'true';
+    replacement.appendChild(iframe);
+
+    wrapper.replaceWith(replacement);
+  }
+
+  
+
+  function enhanceEmbeds() {
+    const wrappers = document.querySelectorAll('.video-wrapper');
+
+    wrappers.forEach(wrapper => {
+      
+      if (wrapper.dataset.listenersAdded === 'true') return;
+      wrapper.dataset.listenersAdded = 'true';
+
+      
+      const rawVideoId = wrapper.dataset.videoId || '';
+      const rawThumbUrl = wrapper.dataset.thumb || '';
+      const videoTitle = wrapper.dataset.videoTitle || '';
+
+      
+      const kind = parseId(rawVideoId);
+      const safeThumb = validateThumbnailUrl(rawThumbUrl);
+
+      
+      const thumbnail = wrapper.querySelector('.video-thumbnail');
+      setupThumbnail(thumbnail, kind, safeThumb);
+
+      
+      const loadHandler = () => loadEmbed(wrapper, kind, videoTitle);
+
+      wrapper.addEventListener('click', loadHandler);
+
+      const overlay = wrapper.querySelector('.video-overlay');
+      if (overlay) overlay.addEventListener('click', loadHandler);
+      if (thumbnail) thumbnail.addEventListener('click', loadHandler);
+
+      
+      wrapper.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          loadHandler();
+        }
+      });
+    });
+  }
+
+  
+  enhanceEmbeds();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', enhanceEmbeds);
+  }
+})();
+</script><p class="yt-text-link">
+      <a href="https://www.youtube.com/watch?v=n4QxcwAm2bQ">YouTube Video</a>
+    </p><button type="button"
+    class="video-wrapper"
+    aria-label="Play YouTube video"
+    data-video-id="n4QxcwAm2bQ"
+    data-thumb=""
+    ><img
+      class="video-thumbnail"
+      src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%201280%20720%27%3E%3Crect%20width=%27100%25%25%27%20height=%27100%25%25%27%20fill=%27%23000%27/%3E%3C/svg%3E"
+      alt="YouTube Thumbnail"
+      loading="lazy"
+      decoding="async"><div class="video-play-button"></div>
+  </button><noscript>
+    <div class="video-noscript"><img src="https://img.youtube.com/vi/n4QxcwAm2bQ/maxresdefault.jpg"
+             alt="YouTube Thumbnail"><p>
+          <a href="https://www.youtube.com/watch?v=n4QxcwAm2bQ" target="_blank" rel="noopener noreferrer">YouTube Video</a>
+        </p></div>
+  </noscript>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://tylerknowsnothing.com/2026/05/28/wed-long-used-the-metaphor.html" class="u-url"><time class="dt-published" datetime="2026-05-28 08:40:00 -0700">May 28, 2026</time></a>
 
 		<div class="e-content">
