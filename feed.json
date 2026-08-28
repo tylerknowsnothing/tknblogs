@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://tknblogs.micro.blog/2026/08/28/i-promise-this-is-about.html",
+				
+				"content_html": "<p>I promise this is about #crapitalism, why rich people suck, and that there&rsquo;s hope. #capitalism #psychology #money <a href=\"https://www.youtube.com/watch?v=tO57SThgdoE\">www.youtube.com/watch</a></p>\n",
+				"content_text": "I promise this is about #crapitalism, why rich people suck, and that there's hope. #capitalism #psychology #money [www.youtube.com/watch](https://www.youtube.com/watch?v=tO57SThgdoE)\n",
+				"date_published": "2026-08-28T07:09:48-07:00",
+				"url": "https://tylerknowsnothing.com/2026/08/28/i-promise-this-is-about.html",
+				"tags": ["capitalism"]
+			},
+			{
+				"id": "http://tknblogs.micro.blog/2026/08/25/spend-your-subscription-money-on.html",
+				"title": "Spend your subscription money on donations to open source instead",
+				"content_html": "<p>The idea that more and more things we use in our daily lives are morphing from something we buy to a #subscription model is growing alarmingly fast. The tangible way normal, everyday consumers can telegraph our discontentment with these mounting monthly costs is to stop paying them and use alternatives, like open source. The rub here is that open source developers are perpetually underfunded, so if you’re going to use open source tools, you should direct some of that cash you used to pay for subscriptions to the developers of the tools you’re using instead.</p>\n<p>Not only does this signal our mass distaste for #crapitalism wringing people dry of their funds, but it also lets open source developers know that we actually appreciate the hard work they put into making these popular tools which are almost invariably free. It doesn&rsquo;t need to be much, or even monthly, but the more people contribute funds to these smaller projects, the more time they can make to snipe bugs and improve the feature set.</p>\n<p>The place I go to for finding alternatives to Windows and macOS applications is <a href=\"https://alternativeto.net/\">AlternativeTo.net</a>. Be sure to use the search sorting tools at the top to narrow done the options.</p>\n",
+				"content_text": "The idea that more and more things we use in our daily lives are morphing from something we buy to a #subscription model is growing alarmingly fast. The tangible way normal, everyday consumers can telegraph our discontentment with these mounting monthly costs is to stop paying them and use alternatives, like open source. The rub here is that open source developers are perpetually underfunded, so if you’re going to use open source tools, you should direct some of that cash you used to pay for subscriptions to the developers of the tools you’re using instead. \n\nNot only does this signal our mass distaste for #crapitalism wringing people dry of their funds, but it also lets open source developers know that we actually appreciate the hard work they put into making these popular tools which are almost invariably free. It doesn't need to be much, or even monthly, but the more people contribute funds to these smaller projects, the more time they can make to snipe bugs and improve the feature set. \n\nThe place I go to for finding alternatives to Windows and macOS applications is [AlternativeTo.net](https://alternativeto.net/). Be sure to use the search sorting tools at the top to narrow done the options. \n",
+				"date_published": "2026-08-25T22:06:01-07:00",
+				"url": "https://tylerknowsnothing.com/2026/08/25/spend-your-subscription-money-on.html",
+				"tags": ["open source","editorial","activism"]
+			},
+			{
 				"id": "http://tknblogs.micro.blog/2026/08/23/this-is-so-stupid-yet.html",
 				
 				"content_html": "<p>This is so stupid. Yet another great reason to ditch #Windows #tech #linux #videogames <a href=\"https://tech.slashdot.org/story/26/08/23/0046217/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices\">tech.slashdot.org/story/26/&hellip;</a></p>\n",
